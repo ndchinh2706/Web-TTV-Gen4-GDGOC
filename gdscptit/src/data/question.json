@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "Khi làm việc, bạn thường:",
+            "options": [
+                "Muốn đạt kết quả nhanh nhất",
+                "Muốn truyền cảm hứng cho mọi người",
+                "Muốn giữ sự ổn định, ít thay đổi",
+                "Muốn mọi việc chính xác, đúng quy trình"
+            ]
+        },
+        {
+            "question": "Trong giao tiếp, bạn:",
+            "options": [
+                "Trực tiếp, thẳng thắn",
+                "Nhiệt tình, vui vẻ",
+                "Nhẹ nhàng, lắng nghe nhiều hơn",
+                "Lịch sự, cẩn trọng trong lời nói"
+            ]
+        },
+        {
+            "question": "Khi gặp vấn đề, bạn thường:",
+            "options": [
+                "Tìm cách giải quyết ngay lập tức",
+                "Hỏi ý kiến và bàn bạc cùng người khác",
+                "Giữ bình tĩnh và kiên nhẫn",
+                "Phân tích chi tiết trước khi quyết định"
+            ]
+        },
+        {
+            "question": "Bạn muốn người khác nhìn nhận mình là:",
+            "options": [
+                "Người mạnh mẽ, quyết đoán",
+                "Người thân thiện, lôi cuốn",
+                "Người đáng tin, ổn định",
+                "Người chính xác, thông minh"
+            ]
+        },
+        {
+            "question": "Trong nhóm, bạn thường:",
+            "options": [
+                "Dẫn dắt, đưa ra quyết định",
+                "Tạo không khí vui vẻ, gắn kết",
+                "Hỗ trợ, lắng nghe mọi người",
+                "Đưa ra số liệu, phân tích rõ ràng"
+            ]
+        },
+        {
+            "question": "Bạn dễ cảm thấy khó chịu khi:",
+            "options": [
+                "Người khác chậm chạp, thiếu quyết đoán",
+                "Mọi thứ buồn tẻ, không có sự tương tác",
+                "Có nhiều thay đổi đột ngột",
+                "Công việc thiếu trật tự, sai sót"
+            ]
+        },
+        {
+            "question": "Động lực lớn nhất trong công việc của bạn là:",
+            "options": [
+                "Quyền lực, thành tích",
+                "Mối quan hệ, sự công nhận",
+                "Sự ổn định, an toàn",
+                "Chất lượng, độ chính xác"
+            ]
+        },
+        {
+            "question": "Khi gặp áp lực, bạn có xu hướng:",
+            "options": [
+                "Càng quyết liệt hơn để giải quyết",
+                "Tìm người chia sẻ và động viên",
+                "Giữ bình tĩnh, tránh xung đột",
+                "Kiểm tra lại chi tiết nhiều lần"
+            ]
+        },
+        {
+            "question": "Điều bạn coi trọng nhất ở người khác là:",
+            "options": [
+                "Sự quyết đoán, dứt khoát",
+                "Sự cởi mở, thân thiện",
+                "Sự chân thành, kiên nhẫn",
+                "Sự chuẩn mực, logic"
+            ]
+        },
+        {
+            "question": "Nếu mô tả bản thân bằng một từ, bạn sẽ chọn:",
+            "options": [
+                "Lãnh đạo",
+                "Truyền cảm hứng",
+                "Hòa hợp",
+                "Nguyên tắc"
+            ]
+        }
+    ]
+}

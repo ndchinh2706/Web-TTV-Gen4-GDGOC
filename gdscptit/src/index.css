@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gdsc-primary-blue: #4285F4;
+    --color-gdsc-primary-green: #34A853;
+    --color-gdsc-primary-yellow: #FBBC05;
+    --color-gdsc-primary-red: #EA4335;
+}
+
+@font-face {
+    font-family: 'Google Sans';
+    src: url('/fonts/GoogleSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "ten_nganh": "Kỹ thuật Điện tử viễn thông",
+    "ma_nganh": "7520207"
+  },
+  {
+    "ten_nganh": "Trí tuệ nhân tạo vạn vật (AIoT)",
+    "ma_nganh": "7520207_AIoT"
+  },
+  {
+    "ten_nganh": "Kỹ thuật Điều khiển và tự động hóa",
+    "ma_nganh": "7520216"
+  },
+  {
+    "ten_nganh": "Công nghệ Kỹ thuật Điện, điện tử",
+    "ma_nganh": "7510301"
+  },
+  {
+    "ten_nganh": "Công nghệ vi mạch bán dẫn",
+    "ma_nganh": "7510301_MBD"
+  },
+  {
+    "ten_nganh": "Công nghệ thông tin",
+    "ma_nganh": "7480201"
+  },
+  {
+    "ten_nganh": "An toàn thông tin",
+    "ma_nganh": "7480202"
+  },
+  {
+    "ten_nganh": "Trí tuệ nhân tạo",
+    "ma_nganh": "7480107"
+  },
+  {
+    "ten_nganh": "Khoa học máy tính",
+    "ma_nganh": "7480101"
+  },
+  {
+    "ten_nganh": "Kỹ thuật dữ liệu",
+    "ma_nganh": "7480102"
+  },
+  {
+    "ten_nganh": "Báo chí",
+    "ma_nganh": "7320101"
+  },
+  {
+    "ten_nganh": "Truyền thông đa phương tiện",
+    "ma_nganh": "7320104"
+  },
+  {
+    "ten_nganh": "Công nghệ đa phương tiện",
+    "ma_nganh": "7329001"
+  },
+  {
+    "ten_nganh": "Quản trị kinh doanh",
+    "ma_nganh": "7340101"
+  },
+  {
+    "ten_nganh": "Logistics và quản trị chuỗi cung ứng",
+    "ma_nganh": "7340101_LOG"
+  },
+  {
+    "ten_nganh": "Thương mại điện tử",
+    "ma_nganh": "7340122"
+  },
+  {
+    "ten_nganh": "Marketing",
+    "ma_nganh": "7340115"
+  },
+  {
+    "ten_nganh": "Quan hệ công chúng",
+    "ma_nganh": "7340115_QHC"
+  },
+  {
+    "ten_nganh": "Kế toán",
+    "ma_nganh": "7340301"
+  },
+  {
+    "ten_nganh": "Công nghệ tài chính (Fintech)",
+    "ma_nganh": "7340205"
+  },
+  {
+    "ten_nganh": "Công nghệ thông tin CLC",
+    "ma_nganh": "7480201_CLC"
+  },
+  {
+    "ten_nganh": "An toàn thông tin CLC",
+    "ma_nganh": "7480202_CLC"
+  },
+  {
+    "ten_nganh": "Kế toán CLC",
+    "ma_nganh": "7340301_CLC"
+  },
+  {
+    "ten_nganh": "Truyền thông đa phương tiện CLC",
+    "ma_nganh": "7320104_CLC"
+  },
+  {
+    "ten_nganh": "Marketing CLC",
+    "ma_nganh": "7340115_CLC"
+  },
+  {
+    "ten_nganh": "Thiết kế và phát triển Game",
+    "ma_nganh": "7329001_GAM"
+  },
+  {
+    "ten_nganh": "Công nghệ thông tin Việt - Nhật",
+    "ma_nganh": "7480201_VNH"
+  },
+  {
+    "ten_nganh": "Công nghệ thông tin (Cử nhân định hướng ứng dụng)",
+    "ma_nganh": "7480201_UDU"
+  },
+  {
+    "ten_nganh": "Khác",
+    "ma_nganh": "other"
+  }
+]

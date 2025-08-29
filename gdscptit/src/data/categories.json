@@ -1,0 +1,27 @@
+[
+  {
+    "id": "tech",
+    "label": "TECH",
+    "description": "Trực tiếp tham gia vào việc xây dựng và phát triển các sản phẩm công nghệ của CLB, từ website, ứng dụng đến các công cụ hỗ trợ học thuật. Đây là nơi biến những dòng code thành giải pháp thực tế."
+  },
+  {
+    "id": "hr-lg",
+    "label": "HR-LG",
+    "description": "Gắn kết các thành viên, tổ chức các hoạt động nội bộ và đảm bảo guồng máy vận hành của GDG on Campus: PTIT luôn trơn tru, hiệu quả, từ việc tuyển quân, lên kế hoạch sự kiện đến quản lý tài chính."
+  },
+  {
+    "id": "design",
+    "label": "DESIGN",
+    "description": "Định hình bản sắc hình ảnh cho CLB. Mọi ấn phẩm truyền thông, bộ nhận diện sự kiện, slide... đều sẽ mang dấu ấn sáng tạo của bạn, tuân thủ theo branding của Google."
+  },
+  {
+    "id": "pr",
+    "label": "PR",
+    "description": "Sáng tạo nội dung, lên kế hoạch và lan tỏa hình ảnh, giá trị của GDG on Campus: PTIT đến cộng đồng sinh viên qua các kênh truyền thông như Fanpage, Linkedin,..."
+  },
+  {
+    "id": "media",
+    "label": "MEDIA",
+    "description": "Ghi lại những khoảnh khắc sống động và đáng nhớ nhất trong mọi sự kiện, hoạt động của CLB qua những bức ảnh và thước phim."
+  }
+]
