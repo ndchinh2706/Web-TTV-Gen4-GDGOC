@@ -4,6 +4,7 @@ from datetime import datetime
 from config import Config
 from models import db, FormSubmission
 from google_sheets_service import sheets_service
+from rag_service import RAGService
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -15,6 +16,8 @@ def create_app():
     
     db.init_app(app)
     CORS(app)
+    
+    rag_service = RAGService(app.config)
     
     with app.app_context():
         db.create_all()
@@ -249,6 +252,55 @@ def create_app():
         except Exception as e:
             logger.error(f"Error getting existing sheet IDs: {str(e)}")
             return set()
+
+    @app.route('/chat', methods=['POST'])
+    def chat():
+        try:
+            data = request.get_json()
+            
+            if not data:
+                return jsonify({'error': 'No JSON data provided'}), 400
+            
+            if 'message' not in data:
+                return jsonify({'error': 'Missing required field: message'}), 400
+            
+            user_message = data['message'].strip()
+            
+            if not user_message:
+                return jsonify({'error': 'Message cannot be empty'}), 400
+            
+            if not app.config.get('OPENAI_API_KEY'):
+                return jsonify({
+                    'error': 'OpenAI API key not configured',
+                    'response': 'Xin lỗi, dịch vụ chat hiện tại chưa được cấu hình. Vui lòng liên hệ với quản trị viên.'
+                }), 503
+            
+            result = rag_service.chat(user_message)
+            
+            logger.info(f"Chat query: '{user_message}' - Relevant: {result.get('relevant', False)}")
+            
+            response_data = {
+                'message': user_message,
+                'response': result['response'],
+                'relevant': result['relevant'],
+                'timestamp': datetime.now().isoformat()
+            }
+            
+            if result['relevant'] and result.get('sources'):
+                response_data['sources'] = result['sources']
+            
+            if 'error' in result:
+                logger.error(f"Chat error: {result['error']}")
+                response_data['debug_error'] = result['error']
+            
+            return jsonify(response_data), 200
+            
+        except Exception as e:
+            logger.error(f"Chat endpoint error: {str(e)}")
+            return jsonify({
+                'error': 'Internal server error',
+                'response': 'Xin lỗi, câu hỏi đó nằm ngoài khả năng hiểu biết của tớ. Cậu vui lòng nhắn tin qua fanpage https://www.facebook.com/gdsc.ptit để được hỗ trợ nhéeeeee.'
+            }), 500
 
     return app
 
