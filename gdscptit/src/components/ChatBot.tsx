@@ -45,7 +45,7 @@ export default function ChatBot({
         timestamp: new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })
     }],
     showInit = true,
-    initQuickActions = ['Bạn có thể giúp tôi gì?', 'Hướng dẫn sử dụng', 'Cảm ơn bạn!'],
+    initQuickActions = ['Ai có thể tham gia GDG on Campus: PTIT?', 'GDG on Campus: PTIT có yêu cầu gì về trình độ lập trình trước khi tham gia?', 'Thành viên GDG on Campus: PTIT sẽ tham gia vào những hoạt động nào?', 'Nếu mình không phải là sinh viên của PTIT, mình có thể tham gia GDG on Campus: PTIT không?'],
     placeholder = 'Nhập tin nhắn của bạn...',
     height = '400px'
 }: ChatBotProps) {
