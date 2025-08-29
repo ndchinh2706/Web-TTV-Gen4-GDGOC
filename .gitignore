@@ -3,3 +3,4 @@ server/.env
 server/note
 server/credentials.json
 .DS_Store
+credentials.json
