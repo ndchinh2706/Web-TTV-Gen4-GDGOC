@@ -1,15 +1,37 @@
+import { useEffect, useState } from "react";
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import { ScrollToTop } from "@/components/ScrollToTop";
 import FloatChat from '@/components/FloatChat';
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
+import { REGISTRATION_END } from "@/data/const";
+import NotYetPopup from "@/components/NotYetPopup";
 
 import circleBlue from '@/assets/sticker/circle-blue.svg'
 import circleRed from '@/assets/sticker/circle-red.svg'
 import circleYellow from '@/assets/sticker/circle-yellow.svg'
 import circleGreen from '@/assets/sticker/circle-green.svg'
 
-export default function Home() {
+export default function FormSpare() {
+    const [showPopup, setShowPopup] = useState(false);
+
+    useEffect(() => {
+        const now = new Date();
+        if (now > REGISTRATION_END) {
+            setShowPopup(true);
+        }
+    }, []);
+
+    useEffect(() => {
+        if (showPopup) {
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "";
+        }
+        return () => {
+            document.body.style.overflow = "";
+        };
+    }, [showPopup]);
     return (
         <>
             <Header />
@@ -57,6 +79,7 @@ export default function Home() {
             <Footer />
             <ScrollToTop />
             <FloatChat />
+            <NotYetPopup isOpen={showPopup} />
         </>
     )
 }
