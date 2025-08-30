@@ -18,7 +18,7 @@ export default function FloatChat() {
     };
 
     return (
-        <div className="fixed bottom-4 right-4 flex flex-col items-end z-8888">
+        <div className="fixed bottom-4 right-4 flex flex-col items-end z-4500">
             {isOpen && (
                 <motion.div
                     className="mb-2 w-90 shadow-lg"

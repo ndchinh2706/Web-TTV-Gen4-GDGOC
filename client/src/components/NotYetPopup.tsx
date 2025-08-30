@@ -10,7 +10,7 @@ const NotYetPopup: React.FC<NotYetPopupProps> = ({ isOpen }) => {
 
     return (
         <div
-            className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/30"
+            className="fixed inset-0 z-[4800] flex items-center justify-center bg-black/30"
         >
             <motion.div
                 initial={{ scale: 0.8, opacity: 0 }}
