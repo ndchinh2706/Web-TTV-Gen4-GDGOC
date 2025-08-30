@@ -15,7 +15,7 @@ export default function Home() {
             <Header />
             <section className="relative flex items-center justify-center">
                 {/* Background decorative circles */}
-                <div className="absolute inset-0 -z-10 overflow-hidden">
+                <div className="hidden md:block absolute inset-0 -z-10 overflow-hidden">
                     <motion.img
                         src={circleBlue}
                         alt="blue circle"
