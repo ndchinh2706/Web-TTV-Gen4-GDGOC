@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import questionsData from "@/data/question.json"
 import majorsData from "@/data/majors.json"
 import { motion } from "framer-motion";
@@ -6,6 +7,7 @@ import type { FormData } from "@/types/form";
 import { useNotification } from "@/components/Notification";
 import { submitForm } from "@/services/formService";
 import SuccessPopup from "@/components/SuccessPopup";
+import { AiOutlineWarning } from "react-icons/ai";
 
 import NotYetPopup from "@/components/NotYetPopup";
 
@@ -53,8 +55,8 @@ function getInitialFormData(): FormData {
 }
 
 export function Section1() {
-    // Popup end time state
     const [showPopup, setShowPopup] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const now = new Date();
@@ -74,7 +76,7 @@ export function Section1() {
         };
     }, [showPopup]);
 
-
+    const [errFormReplicate, setErrFormReplicate] = useState(false);
     const { notify } = useNotification();
     const [open, setOpen] = useState(false);
     const [formData, setFormData] = useState<FormData>(getInitialFormData);
@@ -252,6 +254,7 @@ export function Section1() {
             setClubQuestion("");
             setErrors({});
         } catch (res: any) {
+            setErrFormReplicate(true);
             const errorMessage = res?.error || "Có lỗi xảy ra, vui lòng thử lại!";
             notify(errorMessage, "error");
         }
@@ -311,7 +314,7 @@ export function Section1() {
                     transition={{ duration: 22, repeat: Infinity, ease: "linear" }}
                 />
             </div>
-            <div className="max-w-6xl mx-auto border-2 border-blue-500 p-8 rounded-2xl shadow-lg space-y-8 bg-white">
+            <div className="max-w-6xl mx-auto border-2 border-blue-500 p-8 rounded-2xl shadow-lg space-y-4 bg-white">
                 {/* Personal Information Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
@@ -586,9 +589,25 @@ export function Section1() {
                         </div>
                     </div>
                 </div>
-
+                <div className="flex justify-center">
+                    {errFormReplicate && (
+                        <div className="flex items-center gap-2 rounded-lg bg-red-50 px-4 py-2 text-sm text-red-600 shadow-sm">
+                            <AiOutlineWarning className="h-5 w-5 text-red-500" />
+                            <p>
+                                Có thể có lỗi xảy ra, vui lòng truy cập{" "}
+                                <span
+                                    className="underline font-medium hover:text-red-700 transition-colors cursor-pointer"
+                                    onClick={() => navigate('/form-spare')}
+                                >
+                                    trang dự phòng
+                                </span>
+                                .
+                            </p>
+                        </div>
+                    )}
+                </div>
                 {/* Submit Button */}
-                <div className="flex justify-center pt-4">
+                <div className="flex justify-center">
                     <button
                         onClick={handleSubmit}
                         disabled={isSubmitting}
@@ -608,6 +627,7 @@ export function Section1() {
                     </button>
 
                 </div>
+
             </div>
             <SuccessPopup isOpen={open} onClose={() => setOpen(false)} />
             <NotYetPopup isOpen={showPopup} />
