@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo1 from "@/assets/logo-1.svg";
+import logo1 from "@/assets/logoText.png";
 import { FaArrowRight, FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
@@ -56,24 +56,24 @@ const Header = () => {
       {/* Spacer bằng chiều cao header */}
       <div className="h-16" />
 
-      <header className="flex items-center justify-between px-4 py-3 bg-white shadow fixed top-0 left-0 right-0 z-[5000]">
+      <header className="h-18 flex items-center justify-between px-4 py-3 bg-white shadow fixed top-0 left-0 right-0 z-[5000]">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
             src={logo1}
             alt="Logo"
-            className="h-10 cursor-pointer"
+            className="h-8 md:h-10 cursor-pointer"
             onClick={() => navigate("/")}
           />
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-10 font-bold">
+        <nav className="hidden lg:flex space-x-10 font-bold mr-18">
           {navItems.map((item) => renderNavItem(item))}
         </nav>
 
         {/* Actions (desktop) */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <button
             className="flex items-center gap-2 px-5 py-3 rounded-xl bg-gdsc-primary-blue text-white hover:bg-gdsc-primary-blue/80 cursor-pointer"
             onClick={() => navigate("/form")}
@@ -85,7 +85,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-2xl text-gray-600"
+          className="lg:hidden text-2xl text-gray-600"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <FaTimes /> : <FaBars />}
@@ -93,7 +93,7 @@ const Header = () => {
 
         {/* Mobile Nav */}
         {isOpen && (
-          <div className="absolute top-16 left-0 right-0 bg-white shadow-md flex flex-col items-center space-y-6 py-6 font-bold md:hidden">
+          <div className="absolute top-18 left-0 right-0 bg-white shadow-md flex flex-col items-center space-y-6 py-6 font-bold lg:hidden border-t border-gdsc-primary-blue">
             {navItems.map((item) => renderNavItem(item, true))}
 
             <button

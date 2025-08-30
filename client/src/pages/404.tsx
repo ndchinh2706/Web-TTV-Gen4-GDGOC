@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import { motion } from "framer-motion"
-import GDSCIcon from "@/assets/logo-1.svg"
+import GDSCIcon from "@/assets/logoCenter.png"
 
 export default function NotFound() {
   const navigate = useNavigate()
