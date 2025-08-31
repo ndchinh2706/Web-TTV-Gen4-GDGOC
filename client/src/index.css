@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-    --color-gdsc-primary-blue: #4285F4;
-    --color-gdsc-primary-green: #34A853;
-    --color-gdsc-primary-yellow: #FBBC05;
-    --color-gdsc-primary-red: #EA4335;
+  --color-gdsc-primary-blue: #4285F4;
+  --color-gdsc-primary-green: #34A853;
+  --color-gdsc-primary-yellow: #FBBC05;
+  --color-gdsc-primary-red: #EA4335;
 }
 
 @font-face {
-    font-family: 'Google Sans';
-    src: url('/fonts/GoogleSans.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Google Sans';
+  src: url('/fonts/GoogleSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {

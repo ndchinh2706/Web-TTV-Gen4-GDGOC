@@ -76,7 +76,9 @@ export function Section4() {
                                 <div className="flex flex-col justify-between text-center md:text-left h-full flex-1">
                                     <p className="text-lg text-gdsc-primary-yellow mb-2">{testimonial.role}</p>
                                     <p className="text-gray-600 italic text-justify flex-1">"{testimonial.comment}"</p>
-                                    <h3 className="text-xl font-bold mb-1 text-gdsc-primary-blue mt-4">{testimonial.name}</h3>
+                                    <h2 className="text-xl font-bold mb-1 text-gdsc-primary-blue mt-4">
+                                        {testimonial.name}
+                                    </h2>
                                 </div>
                                 {/* Avatar */}
                                 <img

@@ -40,14 +40,31 @@ const Footer = () => {
             {/* Social Icons and Copyright */}
             <div className="flex flex-col sm:flex-row sm:items-center gap-4">
               <div className="flex justify-center sm:justify-start gap-3">
-                <a href={pageInfo[0].link} target="_blank" rel="noopener noreferrer">
-                  <FaFacebook className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+                <a
+                  href={pageInfo[0].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <FaFacebook className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" aria-hidden="true" />
                 </a>
-                <a href={pageInfo[1].link} target="_blank" rel="noopener noreferrer">
-                  <FaInstagram className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+
+                <a
+                  href={pageInfo[1].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" aria-hidden="true" />
                 </a>
-                <a href={pageInfo[2].link} target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" />
+
+                <a
+                  href={pageInfo[2].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin className="w-6 h-6 hover:text-blue-200 cursor-pointer transition-colors" aria-hidden="true" />
                 </a>
               </div>
 

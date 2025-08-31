@@ -118,10 +118,11 @@ export function Section3() {
                 <>
                   {/* Text */}
                   <div className="flex-1 flex flex-col items-center lg:items-start order-2 lg:order-1">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">
                       {item.title.split(" ")[0]}{" "}
                       <span className={item.color}>{item.title.split(" ")[1]}</span>
-                    </h1>
+                    </h2>
+
                     <p className="text-gray-600 leading-relaxed text-base md:text-xl text-justify md:text-left">
                       {item.description}
                     </p>
@@ -151,6 +152,7 @@ export function Section3() {
                               className="w-full h-full object-cover rounded-2xl"
                               draggable="false"
                               loading="lazy"
+                              decoding="async"
                             />
                           </SwiperSlide>
                         ))}
@@ -184,6 +186,7 @@ export function Section3() {
                               className="w-full h-full object-cover rounded-2xl"
                               draggable="false"
                               loading="lazy"
+                              decoding="async"
                             />
                           </SwiperSlide>
                         ))}
@@ -192,10 +195,10 @@ export function Section3() {
                   </motion.div>
                   {/* Text */}
                   <div className="flex-1 flex flex-col items-center lg:items-start order-2">
-                    <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">
+                    <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">
                       {item.title.split(" ")[0]}{" "}
                       <span className={item.color}>{item.title.split(" ")[1]}</span>
-                    </h1>
+                    </h2>
                     <p className="text-gray-600 leading-relaxed text-base md:text-xl text-justify md:text-left">
                       {item.description}
                     </p>

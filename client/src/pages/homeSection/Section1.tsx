@@ -58,7 +58,7 @@ export function Section1() {
     return (
         <>
             <motion.section
-                initial={{ opacity: 0, y: 50 }}
+                initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="relative flex items-center justify-center h-auto md:min-h-screen mb-4 md:mb-12"
@@ -69,6 +69,8 @@ export function Section1() {
                     alt="Cover"
                     className="absolute inset-0 object-cover w-full h-full"
                     draggable="false"
+                    fetchPriority="high"
+                    decoding="async"
                 />
 
                 {/* Overlay trắng gradient */}
@@ -80,6 +82,8 @@ export function Section1() {
                     {/* Căn giữa các phần tử trong khối */}
                     <div className="flex flex-col items-center text-center">
                         <motion.img
+                            fetchPriority="high"
+                            decoding="async"
                             src={gdgocLogo}
                             loading="lazy"
                             alt="GDG OC Logo"

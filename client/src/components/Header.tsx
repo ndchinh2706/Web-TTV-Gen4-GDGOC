@@ -64,6 +64,8 @@ const Header = () => {
             alt="Logo"
             className="h-8 md:h-10 cursor-pointer"
             onClick={() => navigate("/")}
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
 
@@ -87,9 +89,11 @@ const Header = () => {
         <button
           className="lg:hidden text-2xl text-gray-600"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? "Close menu" : "Open menu"}
         >
-          {isOpen ? <FaTimes /> : <FaBars />}
+          {isOpen ? <FaTimes aria-hidden="true" /> : <FaBars aria-hidden="true" />}
         </button>
+
 
         {/* Mobile Nav */}
         {isOpen && (
