@@ -24,7 +24,7 @@ export function Section4() {
         {
             id: 2,
             name: "Nguyễn Quang Minh",
-            role: "Thành viên HR-LG",
+            role: "Thành viên NonTech - HR-LG",
             comment: "Sau một thời gian không quá dài, nhưng cũng không quá ngắn, đối với mình, mình rất vui và hạnh phúc, vui lắm, hạnh phúc lắm khi được làm việc với các bạn nhà G.",
             image: hrlg_NguyenQuangMinh,
         },
