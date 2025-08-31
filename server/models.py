@@ -1,8 +1,13 @@
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+import pytz
 import json
 
 db = SQLAlchemy()
+
+def vietnam_now():
+    vietnam_tz = pytz.timezone('Asia/Ho_Chi_Minh')
+    return datetime.now(vietnam_tz)
 
 class FormSubmission(db.Model):
     __tablename__ = 'form_submissions'
@@ -21,8 +26,8 @@ class FormSubmission(db.Model):
     applied_department = db.Column(db.String(255), nullable=False)
     answers = db.Column(db.JSON, nullable=False)
     
-    created_at = db.Column(db.DateTime, default=datetime.utcnow)
-    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = db.Column(db.DateTime, default=vietnam_now)
+    updated_at = db.Column(db.DateTime, default=vietnam_now, onupdate=vietnam_now)
     
     def __repr__(self):
         return f'<FormSubmission {self.full_name} - {self.email}>'
