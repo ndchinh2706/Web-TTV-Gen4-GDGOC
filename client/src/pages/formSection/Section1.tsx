@@ -214,6 +214,10 @@ export function Section1() {
                 newErrors[`question-${index}`] = `Câu hỏi ${index + 1} là bắt buộc`;
         });
 
+        if (!clubQuestion.trim()) {
+            newErrors.clubQuestion = "Vui lòng nhập lý do bạn muốn trở thành thành viên";
+        }
+
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
     };
@@ -253,7 +257,7 @@ export function Section1() {
             setErrors({});
         } catch (res: any) {
             setErrFormReplicate(true);
-            if(res.status === 409) {
+            if (res.status === 409) {
                 const errorMessage = res?.error || "Có lỗi xảy ra, vui lòng thử lại!";
                 notify(errorMessage, "error");
             }
@@ -572,7 +576,8 @@ export function Section1() {
                 {/* Club Question Section */}
                 <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                       Lý do bạn muốn trở thành thành viên của GDG on Campus : PTIT là gì?
+                        Lý do bạn muốn trở thành thành viên của GDG on Campus : PTIT là gì?
+                        <span className="text-red-500">*</span>
                     </label>
                     <div className="relative">
                         <textarea
@@ -581,16 +586,26 @@ export function Section1() {
                             onChange={handleClubQuestionChange}
                             rows={4}
                             maxLength={300}
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none pr-16"
+                            className={`w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none pr-16 ${errors.clubQuestion ? "border-red-500 focus:ring-red-500" : "border-gray-300"
+                                }`}
                             placeholder="Nhập câu trả lời của bạn..."
                         />
-                        <div className={`absolute bottom-3 right-3 text-xs font-medium ${clubQuestion.length >= 280 ? 'text-red-500' :
-                            clubQuestion.length >= 250 ? 'text-orange-500' : 'text-gray-400'
-                            }`}>
+                        <div
+                            className={`absolute bottom-3 right-3 text-xs font-medium ${clubQuestion.length >= 280
+                                    ? "text-red-500"
+                                    : clubQuestion.length >= 250
+                                        ? "text-orange-500"
+                                        : "text-gray-400"
+                                }`}
+                        >
                             {clubQuestion.length}/300
                         </div>
                     </div>
+                    {errors.clubQuestion && (
+                        <p className="text-red-500 text-xs">{errors.clubQuestion}</p>
+                    )}
                 </div>
+
                 <div className="flex justify-center">
                     {errFormReplicate && (
                         <div className="flex items-center gap-2 rounded-lg bg-red-50 px-4 py-2 text-sm text-red-600 shadow-sm">
