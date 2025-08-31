@@ -3,4 +3,6 @@ server/.env
 server/note
 server/credentials.json
 .DS_Store
+faiss_index.bin
+embeddings.pkl
 credentials.json

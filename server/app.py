@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from datetime import datetime
+import pytz
 from config import Config
 from models import db, FormSubmission
 from google_sheets_service import sheets_service
@@ -26,6 +27,17 @@ def create_app():
     @app.route('/submit-form', methods=['POST'])
     def submit_form():
         try:
+            vietnam_tz = pytz.timezone('Asia/Ho_Chi_Minh')
+            deadline = vietnam_tz.localize(datetime(2025, 9, 12, 0, 10, 0)) 
+            current_time = datetime.now(vietnam_tz)
+            
+            if current_time > deadline:
+                return jsonify({
+                    'error': 'Form submission has been closed',
+                    'deadline': deadline.isoformat(),
+                    'current_time': current_time.isoformat()
+                }), 403
+            
             data = request.get_json()
             
             if not data:
@@ -52,7 +64,6 @@ def create_app():
                 logger.warning(f"Duplicate phone number attempted: {info['phone_number']} (existing ID: {existing_phone.id})")
                 return jsonify({
                     'error': 'A submission with this phone number already exists',
-                    'existing_submission_id': existing_phone.id
                 }), 409
             
             existing_student_code = FormSubmission.query.filter_by(student_code=info['student_code']).first()
@@ -60,7 +71,6 @@ def create_app():
                 logger.warning(f"Duplicate student code attempted: {info['student_code']} (existing ID: {existing_student_code.id})")
                 return jsonify({
                     'error': 'A submission with this student code already exists',
-                    'existing_submission_id': existing_student_code.id
                 }), 409
             
             submission = FormSubmission(
@@ -124,6 +134,13 @@ def create_app():
     @app.route('/sync-all', methods=['GET'])
     def sync_all_submissions():
         try:
+            provided_key = request.args.get('key')
+            if not provided_key or provided_key != app.config['SYNC_API_KEY']:
+                return jsonify({
+                    'error': 'Unauthorized access. Valid key required.',
+                    'success': False
+                }), 401
+                
             if not sheets_service.is_connected():
                 return jsonify({
                     'error': 'Google Sheets service not connected. Check your credentials and configuration.',
@@ -136,11 +153,9 @@ def create_app():
                 return jsonify({
                     'message': 'No submissions found in database',
                     'success': True,
-                    'total_submissions': 0,
                     'synced': 0,
                     'failed': 0,
                     'skipped': 0,
-                    'results': []
                 }), 200
             
             existing_ids = get_existing_sheet_ids()
@@ -210,12 +225,8 @@ def create_app():
             summary = {
                 'message': f'Sync completed: {synced_count} synced, {failed_count} failed, {skipped_count} skipped',
                 'success': failed_count == 0,
-                'total_submissions': len(submissions),
                 'synced': synced_count,
                 'failed': failed_count,
-                'skipped': skipped_count,
-                'existing_in_sheets': len(existing_ids),
-                'results': results
             }
             
             logger.info(f"Sync completed: {synced_count} synced, {failed_count} failed, {skipped_count} skipped")

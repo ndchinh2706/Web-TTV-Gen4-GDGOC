@@ -20,3 +20,5 @@ class Config:
     EMBEDDING_MODEL = os.environ.get('EMBEDDING_MODEL', 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')
     MAX_CHUNKS_FOR_CONTEXT = int(os.environ.get('MAX_CHUNKS_FOR_CONTEXT', '3'))
     SIMILARITY_THRESHOLD = float(os.environ.get('SIMILARITY_THRESHOLD', '0.3'))
+    
+    SYNC_API_KEY = os.environ.get('SYNC_API_KEY', 'default_sync_key')
