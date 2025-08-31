@@ -141,20 +141,22 @@ export function Section3() {
                         pagination={{ clickable: true }}
                         autoplay={{ delay: 4000, disableOnInteraction: false }}
                         loop={true}
-                        className="w-80 md:w-full h-full rounded-2xl shadow-lg bg-white p-2"
+                        className="w-80 md:w-full h-full rounded-2xl shadow-lg p-2"
                       >
                         {item.gallery.map((img, idx) => (
-                          <SwiperSlide key={idx}>
-                            <img
-                              src={img}
-                              srcSet={`${img}?w=480 480w, ${img}?w=768 768w, ${img}?w=1280 1280w`}
-                              sizes="(max-width: 768px) 100vw, 50vw"
-                              alt={`${item.title} image ${idx + 1}`}
-                              className="w-full h-full object-cover rounded-xl"
-                              draggable="false"
-                              loading="lazy"
-                              decoding="async"
-                            />
+                          <SwiperSlide key={idx} className="flex items-center justify-center">
+                            <div className="relative w-full h-full overflow-hidden rounded-xl shadow-lg">
+                              <img
+                                src={img}
+                                alt={`${item.title} image ${idx + 1}`}
+                                className="w-full h-full object-cover"
+                                draggable="false"
+                                loading="lazy"
+                                decoding="async"
+                                fetchPriority="high"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
                           </SwiperSlide>
                         ))}
                       </Swiper>
@@ -177,20 +179,22 @@ export function Section3() {
                         pagination={{ clickable: true }}
                         autoplay={{ delay: 4000, disableOnInteraction: false }}
                         loop={true}
-                        className="w-80 md:w-full h-full rounded-2xl shadow-lg bg-white p-2"
+                        className="w-80 md:w-full h-full rounded-2xl shadow-lg p-2"
                       >
                         {item.gallery.map((img, idx) => (
-                          <SwiperSlide key={idx}>
-                            <img
-                              src={img}
-                              srcSet={`${img}?w=480 480w, ${img}?w=768 768w, ${img}?w=1280 1280w`}
-                              sizes="(max-width: 768px) 100vw, 50vw"
-                              alt={`${item.title} image ${idx + 1}`}
-                              className="w-full h-full object-cover rounded-xl"
-                              draggable="false"
-                              loading="lazy"
-                              decoding="async"
-                            />
+                          <SwiperSlide key={idx} className="flex items-center justify-center">
+                            <div className="relative w-full h-full overflow-hidden rounded-xl shadow-lg">
+                              <img
+                                src={img}
+                                alt={`${item.title} image ${idx + 1}`}
+                                className="w-full h-full object-cover"
+                                draggable="false"
+                                loading="lazy"
+                                decoding="async"
+                                fetchPriority="high"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
                           </SwiperSlide>
                         ))}
                       </Swiper>
