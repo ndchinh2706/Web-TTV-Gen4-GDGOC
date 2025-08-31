@@ -59,19 +59,9 @@ def create_app():
             except ValueError:
                 return jsonify({'error': 'Use YYYY-MM-DD format.'}), 400
             
-            existing_phone = FormSubmission.query.filter_by(phone_number=info['phone_number']).first()
-            if existing_phone:
-                logger.warning(f"Duplicate phone number attempted: {info['phone_number']} (existing ID: {existing_phone.id})")
-                return jsonify({
-                    'error': 'A submission with this phone number already exists',
-                }), 409
+
             
-            existing_student_code = FormSubmission.query.filter_by(student_code=info['student_code']).first()
-            if existing_student_code:
-                logger.warning(f"Duplicate student code attempted: {info['student_code']} (existing ID: {existing_student_code.id})")
-                return jsonify({
-                    'error': 'A submission with this student code already exists',
-                }), 409
+
             
             submission = FormSubmission(
                 full_name=info['full_name'],
