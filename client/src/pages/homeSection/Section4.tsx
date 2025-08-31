@@ -18,7 +18,7 @@ export function Section4() {
             id: 1,
             name: "Nguyễn Trường Lâm",
             role: "Thành viên NonTech - Design",
-            comment: "A cảm thấy rất vui khi được trở thành một mảnh ghép của GDG oc PTIT và cũng rất tự hào với những thành công của CLB. GDGocPTIT đã giúp mình học hỏi được nhiều điều mới, mở rộng các mối quan hệ, thấy rằng mình thật nhỏ bé những tương lai của mình thật rộng lớn. Cảm ơn GDG oc PTIT đã đồng hành cùng mình trong 2 năm đầu đại học. Sẽ tiếp tục đồng hành cùng nhau. Mình sẽ luôn dõi theo và sẵn sàng khi CLB cần mình. Yêu nhà G.",
+            comment: "A cảm thấy rất vui khi được trở thành một mảnh ghép của GDG on Campus: PTIT và cũng rất tự hào với những thành công của CLB. GDG on Campus: PTIT đã giúp mình học hỏi được nhiều điều mới, mở rộng các mối quan hệ, thấy rằng mình thật nhỏ bé những tương lai của mình thật rộng lớn. Cảm ơn GDG on Campus: PTIT đã đồng hành cùng mình trong 2 năm đầu đại học. Sẽ tiếp tục đồng hành cùng nhau. Mình sẽ luôn dõi theo và sẵn sàng khi CLB cần mình. Yêu nhà G.",
             image: des_NguyenTruongLam,
         },
         {
@@ -39,7 +39,7 @@ export function Section4() {
             id: 4,
             name: "Minh Quân",
             role: "Thành viên Tech",
-            comment: "Mình thấy Gen 3 có lẽ hiện đang là hoạt động nhiều nhất từ trước đến giờ. Nhiều sự kiện được đưa về cho CLB cũng như các thành viên đều gặt hái được những thành tựu xịn xò! Mình cũng rất vui khi được đồng hành cùng với các anh em Core team cũng như làm việc với các thành viên mới. Phải nói các bạn giỏi hơn chúng mình xưa nhiều. Kỉ niệm đáng nhớ nhất là đợt đi chạy sự kiện Build With AI phiên bản PTIT, anh em lúc đó đồng tâm hiệp lực hỗ trợ sự kiện chỉnh chu luôn!",
+            comment: "Mình thấy Gen 3 có lẽ hiện đang là hoạt động nhiều nhất từ trước đến giờ. Nhiều sự kiện được đưa về cho CLB cũng như các thành viên đều gặt hái được những thành tựu xịn xò! Mình cũng rất vui khi được đồng hành cùng với các anh em Core team cũng như làm việc với các thành viên mới. Phải nói các bạn giỏi hơn chúng mình xưa nhiều. Kỉ niệm đáng nhớ nhất là đợt đi chạy sự kiện Build With AI phiên bản PTIT, anh em lúc đó đồng tâm hiệp lực hỗ trợ sự kiện chỉn chu luôn!",
             image: tech_MinhQuan,
         },
         {
@@ -71,7 +71,7 @@ export function Section4() {
                 >
                     {testimonials.map((testimonial) => (
                         <SwiperSlide key={testimonial.id} className="flex">
-                            <div className="flex flex-col md:flex-row items-center md:items-start p-6 md:p-12 mb-6 gap-12 max-w-6xl mx-auto border-3 border-gdsc-primary-blue rounded-4xl min-h-[700px] md:min-h-[200px] w-full">
+                            <div className="flex flex-col md:flex-row items-center md:items-start p-6 md:p-12 mb-10 gap-12 max-w-6xl mx-auto border-3 border-gdsc-primary-blue rounded-4xl min-h-[700px] md:min-h-[200px] w-full">
                                 {/* Text */}
                                 <div className="flex flex-col justify-between text-center md:text-left h-full flex-1">
                                     <p className="text-lg text-gdsc-primary-yellow mb-2">{testimonial.role}</p>
