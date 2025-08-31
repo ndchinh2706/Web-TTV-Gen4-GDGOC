@@ -253,10 +253,14 @@ export function Section1() {
             setErrors({});
         } catch (res: any) {
             setErrFormReplicate(true);
-            const errorMessage = res?.error || "Có lỗi xảy ra, vui lòng thử lại!";
-            notify(errorMessage, "error");
-        }
-        finally {
+            if(res.status === 409) {
+                const errorMessage = res?.error || "Có lỗi xảy ra, vui lòng thử lại!";
+                notify(errorMessage, "error");
+            }
+            else {
+                notify("Có lỗi xảy ra, vui lòng thử lại!", "error");
+            }
+        } finally {
             setIsSubmitting(false);
         }
     };
@@ -568,7 +572,7 @@ export function Section1() {
                 {/* Club Question Section */}
                 <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                        Câu hỏi dành cho CLB:
+                        Lý do bạn muốn trở thành member GDG on Campus: PTIT là gì ?:
                     </label>
                     <div className="relative">
                         <textarea
