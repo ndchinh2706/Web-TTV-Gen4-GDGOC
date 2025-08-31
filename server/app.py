@@ -58,21 +58,7 @@ def create_app():
                 dob = datetime.strptime(info['dob'], '%Y-%m-%d').date()
             except ValueError:
                 return jsonify({'error': 'Use YYYY-MM-DD format.'}), 400
-            
-            existing_phone = FormSubmission.query.filter_by(phone_number=info['phone_number']).first()
-            if existing_phone:
-                logger.warning(f"Duplicate phone number attempted: {info['phone_number']} (existing ID: {existing_phone.id})")
-                return jsonify({
-                    'error': 'A submission with this phone number already exists',
-                }), 409
-            
-            existing_student_code = FormSubmission.query.filter_by(student_code=info['student_code']).first()
-            if existing_student_code:
-                logger.warning(f"Duplicate student code attempted: {info['student_code']} (existing ID: {existing_student_code.id})")
-                return jsonify({
-                    'error': 'A submission with this student code already exists',
-                }), 409
-            
+
             submission = FormSubmission(
                 full_name=info['full_name'],
                 gender=info['gender'],
@@ -290,11 +276,15 @@ def create_app():
             
             logger.info(f"Chat query: '{user_message}' - Relevant: {result.get('relevant', False)}")
             
+            gmt_plus_7 = pytz.timezone('Asia/Bangkok')
+            now_utc = datetime.now(pytz.utc)
+            now_gmt_plus_7 = now_utc.astimezone(gmt_plus_7)
+            
             response_data = {
                 'message': user_message,
                 'response': result['response'],
                 'relevant': result['relevant'],
-                'timestamp': datetime.now().isoformat()
+                'timestamp': now_gmt_plus_7.isoformat()
             }
             
             if result['relevant'] and result.get('sources'):

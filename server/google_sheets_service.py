@@ -3,6 +3,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 import logging
 from typing import Optional, List
+import pytz
+from datetime import datetime
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -13,6 +15,25 @@ class GoogleSheetsService:
         self.spreadsheet = None
         self.worksheet = None
         self._initialize_client()
+    
+    def _get_gmt_plus_7_time(self, dt=None):
+        """Convert datetime to GMT+7 timezone following timezonene.py pattern"""
+        gmt_plus_7 = pytz.timezone('Asia/Bangkok')
+        
+        if dt is None:
+            now_utc = datetime.now(pytz.utc)
+            return now_utc.astimezone(gmt_plus_7)
+        
+        if isinstance(dt, str):
+            dt = datetime.fromisoformat(dt.replace('Z', '+00:00'))
+            if dt.tzinfo is None:
+                dt = pytz.utc.localize(dt)
+            return dt.astimezone(gmt_plus_7)
+        else:
+            if dt.tzinfo is None:
+                return gmt_plus_7.localize(dt)
+            else:
+                return dt.astimezone(gmt_plus_7)
     
     def _initialize_client(self):
         try:
@@ -66,12 +87,8 @@ class GoogleSheetsService:
             
             formatted_timestamp = ''
             if created_at:
-                from datetime import datetime
-                if isinstance(created_at, str):
-                    dt = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
-                else:
-                    dt = created_at
-                formatted_timestamp = dt.strftime('%H:%M:%S %d/%m/%Y')
+                dt_gmt7 = self._get_gmt_plus_7_time(created_at)
+                formatted_timestamp = dt_gmt7.strftime('%d/%m/%Y %H:%M:%S')
             
             padded_answers = answers + [''] * (11 - len(answers))
             padded_answers = padded_answers[:11]
