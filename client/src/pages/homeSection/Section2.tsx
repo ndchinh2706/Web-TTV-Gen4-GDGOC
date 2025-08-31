@@ -27,53 +27,53 @@ export function Section2() {
               Together
             </h2>
             <div className="text-3xl sm:text-4xl lg:text-4xl font-semibold text-gray-700">
-            <motion.span
-              className="mr-1 sm:mr-2"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              We
-            </motion.span>
-            <motion.span
-              className="text-blue-500 mr-1 sm:mr-2"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              Learn
-            </motion.span>
-            ,
-            <motion.span
-              className="text-red-500 ml-1"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-            >
-              Share
-            </motion.span>
+              <motion.span
+                className="mr-1 sm:mr-2"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+              >
+                We
+              </motion.span>
+              <motion.span
+                className="text-blue-500 mr-1 sm:mr-2"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+              >
+                Learn
+              </motion.span>
+              ,
+              <motion.span
+                className="text-red-500 ml-1"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+              >
+                Share
+              </motion.span>
 
-            {/* Xuống dòng thật sự */}
-            <br />
+              {/* Xuống dòng thật sự */}
+              <br />
 
-            <motion.span
-              className="text-yellow-500 mr-1 sm:mr-2"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-            >
-              Connect
-            </motion.span>
-            and
-            <motion.span
-              className="text-green-500 ml-1 sm:ml-2"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.9 }}
-            >
-              Grow
-            </motion.span>
-            !
+              <motion.span
+                className="text-yellow-500 mr-1 sm:mr-2"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                Connect
+              </motion.span>
+              and
+              <motion.span
+                className="text-green-500 ml-1 sm:ml-2"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.9 }}
+              >
+                Grow
+              </motion.span>
+              !
             </div>
           </motion.div>
 
@@ -104,8 +104,12 @@ export function Section2() {
                         alt={`GDSC PTIT Team Photo ${idx + 1}`}
                         className="w-full h-full object-cover"
                         draggable="false"
-                        loading="lazy"
+                        loading="lazy"  
+                        decoding="async" 
+                        fetchPriority="high" 
+                        referrerPolicy="no-referrer"
                       />
+
                     </div>
                   </SwiperSlide>
                 ))}

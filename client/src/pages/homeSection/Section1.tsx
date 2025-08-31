@@ -85,7 +85,6 @@ export function Section1() {
                             fetchPriority="high"
                             decoding="async"
                             src={gdgocLogo}
-                            loading="lazy"
                             alt="GDG OC Logo"
                             className="max-w-[350px] md:max-w-[600px] w-full h-auto"
                             animate={{ scale: [1, 1.05, 1] }}
@@ -166,6 +165,10 @@ export function Section1() {
             {/* Mobile Timeline - Vertical */}
             <div className="md:hidden w-full py-12 relative">
                 <motion.img
+                    loading="lazy"
+                    decoding="async"
+                    fetchPriority="low"
+                    referrerPolicy="no-referrer"
                     src={circleGreen}
                     alt="green circle"
                     className="absolute top-16 left-8 w-38 h-38 opacity-70"
@@ -173,6 +176,10 @@ export function Section1() {
                     transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
                 />
                 <motion.img
+                    loading="lazy"
+                    decoding="async"
+                    fetchPriority="low"
+                    referrerPolicy="no-referrer"
                     src={circleRed}
                     alt="red circle"
                     className="absolute top-82 right-12 w-24 h-24 opacity-60"
@@ -181,6 +188,10 @@ export function Section1() {
                 />
 
                 <motion.img
+                    loading="lazy"
+                    decoding="async"
+                    fetchPriority="low"
+                    referrerPolicy="no-referrer"
                     src={circleBlue}
                     alt="blue circle"
                     className="absolute bottom-0 left-0 w-30 h-30 opacity-70"
@@ -220,7 +231,10 @@ export function Section1() {
                                             src={item.img}
                                             alt={`Flag ${item.color}`}
                                             className="w-10 h-10 object-contain"
+                                            loading="lazy"
+                                            decoding="async"
                                         />
+
                                     </div>
 
                                     {/* Content */}
