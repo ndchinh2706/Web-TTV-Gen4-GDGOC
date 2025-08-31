@@ -572,7 +572,7 @@ export function Section1() {
                 {/* Club Question Section */}
                 <div className="space-y-2">
                     <label className="block text-sm font-medium text-gray-700">
-                        Lý do bạn muốn trở thành member GDG on Campus: PTIT là gì ?:
+                       Lý do bạn muốn trở thành thành viên của GDG on Campus : PTIT là gì?
                     </label>
                     <div className="relative">
                         <textarea
