@@ -58,11 +58,7 @@ def create_app():
                 dob = datetime.strptime(info['dob'], '%Y-%m-%d').date()
             except ValueError:
                 return jsonify({'error': 'Use YYYY-MM-DD format.'}), 400
-            
 
-            
-
-            
             submission = FormSubmission(
                 full_name=info['full_name'],
                 gender=info['gender'],
@@ -280,11 +276,15 @@ def create_app():
             
             logger.info(f"Chat query: '{user_message}' - Relevant: {result.get('relevant', False)}")
             
+            gmt_plus_7 = pytz.timezone('Asia/Bangkok')
+            now_utc = datetime.now(pytz.utc)
+            now_gmt_plus_7 = now_utc.astimezone(gmt_plus_7)
+            
             response_data = {
                 'message': user_message,
                 'response': result['response'],
                 'relevant': result['relevant'],
-                'timestamp': datetime.now().isoformat()
+                'timestamp': now_gmt_plus_7.isoformat()
             }
             
             if result['relevant'] and result.get('sources'):
