@@ -123,6 +123,7 @@ export function Section1() {
                         >
                             ĐĂNG KÝ NGAY <FaArrowRight />
                         </button>
+
                     </div>
                 </div>
 

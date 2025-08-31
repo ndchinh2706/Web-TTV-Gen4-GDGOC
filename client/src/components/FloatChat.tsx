@@ -1,10 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaComments, FaTimes } from 'react-icons/fa';
-import { motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import ChatBot from '@/components/ChatBot';
 
 export default function FloatChat() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState<boolean | null>(null);
+
+    useEffect(() => {
+        const isDesktop = window.innerWidth >= 768;
+        setIsOpen(isDesktop); 
+    }, []);
+
+    if (isOpen === null) return null;
 
     const chatVariants = {
         hidden: { opacity: 0, scale: 0.8, y: 50 },
@@ -18,7 +25,7 @@ export default function FloatChat() {
     };
 
     return (
-        <div className="fixed bottom-4 right-4 flex flex-col items-end z-4500">
+        <div className="fixed bottom-4 right-4 flex flex-col items-end z-[4500]">
             {isOpen && (
                 <motion.div
                     className="mb-2 w-90 shadow-lg"
