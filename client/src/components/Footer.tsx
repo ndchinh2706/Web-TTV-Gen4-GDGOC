@@ -5,7 +5,7 @@ const Footer = () => {
   const pageInfo = [
     { category: "Facebook", link: "https://facebook.com/gdscptit" },
     { category: "Instagram", link: "https://www.instagram.com/gdgoc.ptit/" },
-    { category: "LinkedIn", link: "https://linkedin.com/company/gdscptit" },
+    { category: "LinkedIn", link: "https://www.linkedin.com/company/gdgoc-ptit/" },
   ];
 
   const contactInfo = {
