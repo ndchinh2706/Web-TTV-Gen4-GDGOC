@@ -203,7 +203,7 @@ class RAGService:
             'gdg', 'gdsc', 'google developer', 'google developers', 'ptit',
             'tuyển thành viên', 'tuyển sinh', 'đăng ký', 'technical', 'design',
             'truyền thông', 'nhân sự', 'hậu cần', 'câu lạc bộ', 'clb',
-            'sự kiện', 'hoạt động', 'training', 'dự án', 'gen 4'
+            'sự kiện', 'hoạt động', 'training', 'dự án', 'gen 4', 'tech', 'hrlg', 'pr'
         ]
         
         query_lower = query.lower()
@@ -224,10 +224,11 @@ THÔNG TIN VỀ GDG on Campus: PTIT:
 {context}
 
 QUY TẮC TRẢ LỜI:
+Với các câu hỏi đơn giản và cơ bản như chào hỏi, hãy chào hỏi một cách lịch sự. 
 1. Chỉ trả lời các câu hỏi liên quan đến GDG on Campus: PTIT
 2. Sử dụng thông tin từ ngữ cảnh được cung cấp ở trên
 3. Trả lời bằng tiếng Việt, thân thiện và chuyên nghiệp
-4. Nếu không có thông tin trong ngữ cảnh, hãy nói "Tôi không có thông tin về vấn đề này. Vui lòng liên hệ trực tiếp với GDG on Campus: PTIT qua fanpage https://www.facebook.com/gdsc.ptit để được hỗ trợ tốt hất."
+4. Nếu không có thông tin trong ngữ cảnh nhưng vấn liên quan tới CLB của chúng tôi, hãy thử trả lời một cách sát nhất, kèm theo nói "Nhưng tôi không được cung cấp thông tin về vấn đề này. Vui lòng liên hệ trực tiếp với GDG on Campus: PTIT qua fanpage https://www.facebook.com/gdsc.ptit để được hỗ trợ tốt nhất." Nếu không liên quan, hãy yêu cầu liên hệ qua fanpage.
 5. Luôn khuyến khích người dùng đăng kí tham gia CLB
 6. Xưng hô 2 ngôi là "tớ" và "cậu"
 CÂU HỎI: {query}
