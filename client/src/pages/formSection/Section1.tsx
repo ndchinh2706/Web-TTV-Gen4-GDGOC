@@ -361,15 +361,23 @@ export function Section1() {
                         <label className="block text-sm font-medium text-gray-700">
                             Giới tính: <span className="text-red-500">*</span>
                         </label>
-                        <select
-                            name="gender"
-                            value={formData.information.gender}
-                            onChange={handleInfoChange}
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-white"
-                        >
-                            <option value="Nam">Nam</option>
-                            <option value="Nữ">Nữ</option>
-                        </select>
+                        <div className="relative">
+                            <select
+                                name="gender"
+                                value={formData.information.gender}
+                                onChange={handleInfoChange}
+                                className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm 
+                 focus:ring-2 focus:ring-blue-500 focus:border-transparent 
+                 outline-none transition-all bg-white appearance-none pr-10"
+                            >
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
+                            </select>
+                            {/* Custom arrow */}
+                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
+                                ▼
+                            </span>
+                        </div>
                     </div>
 
                     <div className="space-y-2">
@@ -432,9 +440,12 @@ export function Section1() {
                             name="dob"
                             value={formData.information.dob}
                             onChange={handleInfoChange}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all ${hasFieldError("dob") ? "border-red-500" : "border-gray-300"
-                                }`}
+                            className={`w-full border rounded-lg px-4 py-3 text-sm 
+              focus:ring-2 focus:ring-blue-500 
+              focus:border-transparent outline-none transition-all 
+              appearance-none ${hasFieldError("dob") ? "border-red-500" : "border-gray-300"}`}
                         />
+
                         {getFieldError("dob") && (
                             <p className="text-red-500 text-xs">{getFieldError("dob")}</p>
                         )}
@@ -481,24 +492,30 @@ export function Section1() {
                         )}
                     </div>
 
-
                     <div className="space-y-2">
                         <label className="block text-sm font-medium text-gray-700">
                             Bạn là sinh viên năm: <span className="text-red-500">*</span>
                         </label>
-                        <select
-                            name="student_year"
-                            value={formData.information.student_year}
-                            onChange={handleInfoChange}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-white ${hasFieldError("student_year") ? "border-red-500" : "border-gray-300"
-                                }`}
-                        >
-                            <option value="">Chọn</option>
-                            <option value="Năm 1">Năm 1</option>
-                            <option value="Năm 2">Năm 2</option>
-                            <option value="Năm 3">Năm 3</option>
-                            <option value="Năm 4">Năm 4</option>
-                        </select>
+                        <div className="relative">
+                            <select
+                                name="student_year"
+                                value={formData.information.student_year}
+                                onChange={handleInfoChange}
+                                className={`w-full border rounded-lg px-4 py-3 pr-10 text-sm 
+                  focus:ring-2 focus:ring-blue-500 focus:border-transparent 
+                  outline-none transition-all bg-white appearance-none 
+                  ${hasFieldError("student_year") ? "border-red-500" : "border-gray-300"}`}
+                            >
+                                <option value="">Chọn</option>
+                                <option value="Năm 1">Năm 1</option>
+                                <option value="Năm 2">Năm 2</option>
+                                <option value="Năm 3">Năm 3</option>
+                                <option value="Năm 4">Năm 4</option>
+                            </select>
+                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
+                                ▼
+                            </span>
+                        </div>
                         {getFieldError("student_year") && (
                             <p className="text-red-500 text-xs">{getFieldError("student_year")}</p>
                         )}
@@ -508,20 +525,27 @@ export function Section1() {
                         <label className="block text-sm font-medium text-gray-700">
                             Ban ứng tuyển: <span className="text-red-500">*</span>
                         </label>
-                        <select
-                            name="applied_department"
-                            value={formData.information.applied_department}
-                            onChange={handleInfoChange}
-                            className={`w-full border rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all bg-white ${hasFieldError("applied_department") ? "border-red-500" : "border-gray-300"
-                                }`}
-                        >
-                            <option value="">Chọn</option>
-                            <option value="TECH">Tech</option>
-                            <option value="PR">NonTech - PR</option>
-                            <option value="DES">NonTech - Design</option>
-                            <option value="MEDIA">NonTech - Media</option>
-                            <option value="HRLG">NonTech - HR-LG</option>
-                        </select>
+                        <div className="relative">
+                            <select
+                                name="applied_department"
+                                value={formData.information.applied_department}
+                                onChange={handleInfoChange}
+                                className={`w-full border rounded-lg px-4 py-3 pr-10 text-sm 
+                  focus:ring-2 focus:ring-blue-500 focus:border-transparent 
+                  outline-none transition-all bg-white appearance-none 
+                  ${hasFieldError("applied_department") ? "border-red-500" : "border-gray-300"}`}
+                            >
+                                <option value="">Chọn</option>
+                                <option value="TECH">Tech</option>
+                                <option value="PR">NonTech - PR</option>
+                                <option value="DES">NonTech - Design</option>
+                                <option value="MEDIA">NonTech - Media</option>
+                                <option value="HRLG">NonTech - HR-LG</option>
+                            </select>
+                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
+                                ▼
+                            </span>
+                        </div>
                         {getFieldError("applied_department") && (
                             <p className="text-red-500 text-xs">{getFieldError("applied_department")}</p>
                         )}
@@ -592,10 +616,10 @@ export function Section1() {
                         />
                         <div
                             className={`absolute bottom-3 right-3 text-xs font-medium ${clubQuestion.length >= 280
-                                    ? "text-red-500"
-                                    : clubQuestion.length >= 250
-                                        ? "text-orange-500"
-                                        : "text-gray-400"
+                                ? "text-red-500"
+                                : clubQuestion.length >= 250
+                                    ? "text-orange-500"
+                                    : "text-gray-400"
                                 }`}
                         >
                             {clubQuestion.length}/300

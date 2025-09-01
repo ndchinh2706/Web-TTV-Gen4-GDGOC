@@ -50,10 +50,9 @@ export default function ChatBot({
     height = '400px'
 }: ChatBotProps) {
     const STORAGE_KEY = "gdsc-chat-messages";
-
-    // Load từ localStorage trước
+    // Load từ sessionStorage trước
     const [messages, setMessages] = useState<Message[]>(() => {
-        const saved = localStorage.getItem(STORAGE_KEY);
+        const saved = sessionStorage.getItem(STORAGE_KEY);
         return saved ? JSON.parse(saved) : initMessages;
     });
 
@@ -74,9 +73,9 @@ export default function ChatBot({
         return () => clearTimeout(timer);
     }, [messages, isTyping]);
 
-    // Cứ khi messages thay đổi thì lưu vào localStorage
+    // Cứ khi messages thay đổi thì lưu vào sessionStorage
     useEffect(() => {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
     }, [messages]);
 
     const handleSendMessage = async () => {
@@ -130,7 +129,7 @@ export default function ChatBot({
 
     const clearMessages = () => {
         setMessages(initMessages);
-        localStorage.removeItem(STORAGE_KEY); // xoá cả localStorage
+        sessionStorage.removeItem(STORAGE_KEY); // xoá cả sessionStorage
     };
 
     return (
