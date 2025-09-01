@@ -128,4 +128,72 @@ YÊU CẦU CÔNG VIỆC
 ○	Chủ động sắp xếp thời gian dành cho các hoạt động của CLB.
 ○	Có đam mê với môi trường CLB, thích ứng nhanh với văn hóa chung của GDGOC: PTIT.
 ○	Cam kết đồng hành cùng CLB trong suốt nhiệm kỳ năm học (2025-2026).
-Nếu bạn đã đọc đến đây và cảm thấy tim mình "rung rinh", đừng ngần ngại ứng tuyển để trở thành một phần không thể thiếu của gia đình GDSC-PTIT nhé!
+Ai có thể tham gia GDSC - PTIT?
+Tất cả sinh viên từ PTIT và các trường đại học khác đều có thể tham gia GDSC - PTIT, không phân biệt ngành học hay năm học. Câu lạc bộ chào đón tất cả những ai có đam mê về công nghệ, muốn học hỏi và phát triển bản thân.
+GDSC - PTIT có yêu cầu gì về trình độ lập trình trước khi tham gia? Không biết Tech có vào CLB được không? Năm nhất chưa biết gì vào CLB được không? Nếu mình là sinh viên năm nhất, chưa có kinh nghiệm gì về lập trình thì có được đào tạo hay không?
+Có, câu lạc bộ luôn chào đón bạn và sẽ giúp bạn học hỏi thêm các kiến thức chuyên môn cũng như những kĩ năng cần thiết để phát triển bản thân. Ngoài ra, bạn còn có thể apply vào các ban non-tech khác như HR-LG, PR,... miễn bạn có đủ yêu thích và đam mê với công nghệ và cộng đồng GDG
+
+
+Thành viên GDSC - PTIT sẽ tham gia vào những hoạt động nào?
+Thành viên sẽ được tham gia vào các buổi workshop, seminar, hackathon, làm việc nhóm trong các dự án cộng đồng, cũng như các buổi networking với các chuyên gia trong ngành. Đối với các bạn tham gia ở các ban non-tech, các hoạt động có thể bao gồm tổ chức sự kiện, quản lý nhân sự - hậu cần, truyền thông, thiết kế đồ họa, và nhiều hơn nữa.
+
+Mình có thể tham gia GDSC - PTIT cùng lúc với việc tham gia các câu lạc bộ khác không?
+Có, bạn hoàn toàn có thể tham gia GDSC - PTIT song song với các câu lạc bộ khác tại trường hoặc trường khác, miễn là bạn có thể cân bằng thời gian và hoàn thành các nhiệm vụ của mình.
+
+Nếu mình là sinh viên trường khác không phải là sinh viên của PTIT, mình có thể tham gia GDSC - PTIT không?
+Có, GDSC - PTIT luôn chào đón tất cả các bạn sinh viên, dù bạn học ở bất kỳ trường nào. Chúng tôi khuyến khích sự đa dạng và tin rằng sự đóng góp của bạn sẽ mang lại giá trị lớn cho cộng đồng của chúng tôi.
+
+Ban PR có yêu cầu kinh nghiệm viết bài không?
+Không cần đâu nhé, chúng mình sẽ có các buổi training cho bạn để bạn rõ hơn về cách viết bài cũng như văn hoá CLB nè. 
+
+Năm 3 năm 4 cuối cấp vào CLB được không?
+Các bạn vẫn có thể tham gia CLB miễn là cân bằng được giữa thời gian học tập và thời gian tham gia các hoạt động
+
+Cơ hội giao lưu học hỏi kinh nghiệm thêm với anh chị đi trước?
+Chắc chắn là được nhé, chúng mình là cộng đồng mở luôn luôn có các anh chị từ các gen luôn luôn sẵn lòng chia sẻ các kinh nghiệm và kiến thức chưa kể còn nhiều khi được anh chị gửi nhiều đặc quyền như canva pro,…
+
+Kế hoạch lộ trình đào tạo, training của Tech trong CLB?
+CLB có kế hoạch đào tạo để thi các cuộc thi của trường như là ICPC không ạ
+Kế hoạch đào tạo của ban Tech trong CLB chia thành hai hướng chính:
+Đào tạo phục vụ phát triển sản phẩm & hackathon
+Đào tạo học thuật giúp các bạn cải thiện kiến thức lập trình trên lớp
+
+Mình muốn biết thêm hoạt động của ban Tech?
+Phát triển dự án thực chiến: build sản phẩm hoàn chỉnh hơn từ prototype.
+Tham gia/chuẩn bị hackathon: training nâng cao, phân vai rõ ràng.
+Workshop chuyên sâu: về Firebase nâng cao, DevOps, Security, hoặc mảng hot (AI, blockchain…).
+Mentoring liên tục: hỗ trợ thành viên mới, review code, định hướng stack.
+Open-source & cộng đồng: đóng góp repo chung, viết docs, chia sẻ kinh nghiệm.
+
+Mình muốn biết thêm hoạt động của ban Truyền thông PR?
+Ngoài viết bài đảm bảo hình ảnh trên page CLB thì ban truyền thông sẽ đảm nhiệm những nhiệm vụ như là làm việc với ban Design và Media để chịu trách nhiệm sản xuất ra hình ảnh của page, chạy sự kiện của CLB và các bên cộng đồng của Google nữa nhé
+
+Mình muốn biết thêm hoạt động của ban nhân sự hậu cần HRLG?
+Trong GDGoC PTIT thì HRLG chính là team “xương sống” đứng sau mọi sự kiện:
+HR (nhân sự):
+Lo quản lý member: điểm danh, phân ca trực bàn truyền thông, chia ai trực booth, ai làm minigame.
+Điều phối: nhắc ai lên sân khấu, gọi người chơi, sắp xếp MC.
+Kết nối nội bộ: động viên tinh thần anh em, đảm bảo mọi người đều có việc rõ ràng, không ai bị lạc lõng.
+
+LG (hậu cần):
+Đạo cụ – vật dụng: chuẩn bị quà, giấy bút, bảng tên, loa, mic, dây điện…
+Set up: trang trí bàn truyền thông, backdrop, standee, khu vực check-in.
+Giải quyết sự cố: thiếu ghế, hỏng mic, đứt dây… team này nhảy vào xử ngay.
+
+Clb tuyển thành viên dựa trên những tiêu chí nào, và tiêu chí nào là quan trọng nhất.
+Chúng mình tuyển thành viên dựa trên nhiều yếu tố như tính cách, chuyên môn, và mức độ phù hợp với CLB. Chúng mình sẽ chọn những bạn sau vòng thử việc mà có tính cách năng nổ, có đủ thời gian và tâm huyết đi cùng CLB thì chúng mình đều rất là welcome ne^^.
+Sinh viên năm hai đã học qua C và C++ rồi thì có phải học lại không ạ
+Không nhất thiết phải học lại C/C++ từ đầu đâu. Nếu đã qua môn rồi thì coi như có nền tảng tư duy lập trình rồi. Cái cần là:
+Ôn lại những thứ cốt lõi: biến, hàm, con trỏ, cấu trúc dữ liệu cơ bản… (nếu còn hổng chỗ nào).
+Học cái mới phục vụ dự án: Python, JavaScript, hoặc framework hiện đại (React, Node.js, v.v.).
+Chuyển mindset: từ “làm bài tập trên lớp” sang “xây sản phẩm thực tế”, tức là quan tâm nhiều hơn đến clean code, teamwork, quản lý dự án, không chỉ code chạy được.
+
+Em muốn hỏi tiêu chí để vượt qua vòng thử thách để trở thành thành viên của GDSC-PTIT có khắt khe không ạ?
+Để vào CLB thì mọi người đều phải trải qua vòng phỏng vấn và vòng thử việc nhé, không quá khắt khe nhưng mà sẽ đủ và vừa sức tất cả mọi người đều có thể vượt qua nhé.
+Sự khác biệt lớn nhất giữa clb của mình với các clb về IT khác trong trường là gì?
+Ở CLB nào cũng có điểm khác nhau riêng, đối với bên mình thì ngay từ cái tên thui cũng đã thể hiện điểm khác biệt là “Google” rùi nhỉ^^, bên CLB ngoài được học về giải thuật như cách học tập các môn trên trường tốt như C, Python,.. thì chúng mình sẽ training các công cụ Google mọi người được dùng tài nguyên công nghệ Google cấp để làm các dự án về công nghệ nhé.
+
+CLB có thể cho mình biết lịch hoạt động của clb?
+CLB làm việc lịch hoạt động linh hoạt cả online lẫn offline nhé, lịch hoạt động cũng tùy theo sự kiện của CLB nữa thì mức độ hoạt động sẽ khác nhau. Nhưng yên tâm là sẽ đủ thời gian để mọi người vừa học tập vừa làm việc nhé^^ sẽ không nặng quá đâu nè.
+Mình muốn hỏi là CLB hoạt động quy mô trong trường hay tổ chức bên ngoài nữa ạ?
+CLB hiện vẫn đang hoạt động chủ yếu là trong trường, ngoài ra CLB thuộc cộng đồng Google Developer Groups nên nếu có sự kiện của cộng đồng lớn như GDG Hà Nội, GDG Cloud,… thì CLB đều được tham gia hỗ trợ hoặc tham gia để đi loot quà nè ^^.
