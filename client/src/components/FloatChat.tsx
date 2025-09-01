@@ -8,10 +8,29 @@ interface FloatChatProps {
 }
 
 export default function FloatChat({ open = false }: FloatChatProps) {
-  const [isOpen, setIsOpen] = useState(open);
+  const [isOpen, setIsOpen] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      const isMobile = window.innerWidth < 768;
+      return isMobile ? false : open;
+    }
+    return false;
+  });
 
   useEffect(() => {
-    setIsOpen(open); // đồng bộ khi prop thay đổi
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setIsOpen(false); // luôn đóng khi đang ở mobile
+      } else {
+        setIsOpen(open); // đồng bộ với prop trên desktop
+      }
+    };
+
+    handleResize(); // chạy 1 lần khi mount
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, [open]);
 
   const chatVariants = {
