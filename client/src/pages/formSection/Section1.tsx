@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { FaChevronDown } from "react-icons/fa";
 import questionsData from "@/data/question.json"
 import majorsData from "@/data/majors.json"
 import { motion } from "framer-motion";
@@ -374,9 +375,7 @@ export function Section1() {
                                 <option value="Nữ">Nữ</option>
                             </select>
                             {/* Custom arrow */}
-                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
-                                ▼
-                            </span>
+                            <FaChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                         </div>
                     </div>
 
@@ -512,9 +511,7 @@ export function Section1() {
                                 <option value="Năm 3">Năm 3</option>
                                 <option value="Năm 4">Năm 4</option>
                             </select>
-                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
-                                ▼
-                            </span>
+                            <FaChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                         </div>
                         {getFieldError("student_year") && (
                             <p className="text-red-500 text-xs">{getFieldError("student_year")}</p>
@@ -542,9 +539,7 @@ export function Section1() {
                                 <option value="MEDIA">NonTech - Media</option>
                                 <option value="HRLG">NonTech - HR-LG</option>
                             </select>
-                            <span className="absolute inset-y-0 right-3 flex items-center pointer-events-none text-gray-500">
-                                ▼
-                            </span>
+                            <FaChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500 pointer-events-none" />
                         </div>
                         {getFieldError("applied_department") && (
                             <p className="text-red-500 text-xs">{getFieldError("applied_department")}</p>

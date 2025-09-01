@@ -20,7 +20,7 @@ export default function Home() {
       <Section5 />
       <Footer />
       <ScrollToTop />
-      <FloatChat />
+      <FloatChat open={true} />
 
     </div>
   )
