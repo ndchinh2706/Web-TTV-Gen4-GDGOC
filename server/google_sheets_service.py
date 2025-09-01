@@ -16,25 +16,12 @@ class GoogleSheetsService:
         self.worksheet = None
         self._initialize_client()
     
-    def _get_gmt_plus_7_time(self, dt=None):
-        """Convert datetime to GMT+7 timezone following timezonene.py pattern"""
+    def _get_gmt_plus_7_time(self, dt=None):       
         gmt_plus_7 = pytz.timezone('Asia/Bangkok')
+        now_utc = datetime.now(pytz.utc)
+        now_gmt_plus_7 = now_utc.astimezone(gmt_plus_7)
+        return now_gmt_plus_7
         
-        if dt is None:
-            now_utc = datetime.now(pytz.utc)
-            return now_utc.astimezone(gmt_plus_7)
-        
-        if isinstance(dt, str):
-            dt = datetime.fromisoformat(dt.replace('Z', '+00:00'))
-            if dt.tzinfo is None:
-                dt = pytz.utc.localize(dt)
-            return dt.astimezone(gmt_plus_7)
-        else:
-            if dt.tzinfo is None:
-                return gmt_plus_7.localize(dt)
-            else:
-                return dt.astimezone(gmt_plus_7)
-    
     def _initialize_client(self):
         try:
             scope = [
