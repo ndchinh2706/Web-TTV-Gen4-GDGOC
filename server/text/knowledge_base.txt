@@ -1,199 +1,217 @@
-TỔNG QUAN 
-GDG on Campus: PTIT là tên gọi viết tắt của “Google Developer Groups on Campus: PTIT” - câu lạc bộ được Google  cấp quyền tổ chức và hỗ trợ, dành cho sinh viên có niềm yêu thích CNTT nói chung và công nghệ  Google nói riêng. GDSC chính thức hoạt động tại Việt Nam vào năm 2019 với 8 CLB tại Hà Nội,  Đà Nẵng và TPHCM. 49 sự kiện đã được tổ chức với hơn 2000 người tham gia. Đến năm 2023,  GDSC đã có 26 CLB tại Hà Nội, Đà Nẵng, TPHCM và Cần Thơ. 
-Tháng 9 năm 2022, GDG on Campus: PTIT chính thức gia nhập mạng lưới GDSC toàn cầu. Tuy là một  CLB sinh sau đẻ muộn tại PTIT, GDG on Campus: PTIT tự hào về những hoạt động đã có tính đến thời điểm  hiện tại, về sứ mệnh tạo ra một cộng đồng dành cho những người đam mê Công nghệ, nơi có thể  học tập, chia sẻ, cống hiến. 
-GDG on Campus: PTIT hoạt động chủ yếu 2 mảng bao gồm: 
-●	Technical Department 
-●	Non - Technical Department 
-Bạn có thể tìm hiểu thêm về GDG on Campus: PTIT tại: https://gdscptit.dev
+CHATBOT HƯỚNG DẪN SỬ DỤNG
+Chào cậu! Tớ là chatbot hỗ trợ của GDG on Campus: PTIT. Tớ có thể giúp cậu tìm hiểu về câu lạc bộ, quy trình tuyển thành viên, các ban hoạt động và nhiều thông tin khác. Hãy hỏi tớ bất cứ điều gì về GDG on Campus: PTIT nhé!
 
-TUYỂN THÀNH VIÊN GEN 4
-Với mong muốn tìm ra những những nhân tố tích cực để cùng nhau xây dựng một cộng  đồng các thế hệ sinh viên gắn kết, năng động và bền vững cùng nhau học hỏi và phát triển, GDSC PTIT xin thông báo tuyển thành viên thế hệ thứ 4, nhiệm kì 2025-2026
-Link đơn đăng ký:  https://gdscptit.dev/
-Hạn đăng ký: 23:59 PM, ngày 11/09/2025
-Vị trí: 
-• Technical 
-• Media
-• Nhân sự - Hậu cần 
-• Truyền thông 
-• Design 
-Mọi thông tin chi tiết liên liên hệ:  
-- Email: contact@gdscptit.dev 
-- Facebook: fb.com/gdsc.ptit 
-- Instagram: @gdsc.ptit 
-- Mobile: 0869 276 128 (Ms. Thoa)
+Một số câu hỏi mà cậu có thể hỏi tớ:
+- GDG on Campus: PTIT là gì?
+- Làm thế nào để tham gia câu lạc bộ?
+- Các ban trong CLB có những gì?
+- Yêu cầu để vào ban Technical là gì?
+- CLB có những hoạt động gì?
+- Sinh viên năm nhất có thể tham gia không?
 
-YÊU CẦU CÔNG VIỆC CHUNG 
-●	Là sinh viên trên địa bàn Hà Nội, có niềm đam mê Công nghệ và yêu thích GDG on Campus: PTIT
-●	Cam kết làm việc một cách nghiêm túc, có trách nhiệm với CLB ít nhất đến trước khi bắt  đầu năm học 2025 - 2026
-●	Có trách nhiệm trong công việc, thời gian làm việc trung bình: 8 - 10 giờ/tuần (hoặc hơn)  bao gồm họp ban, họp nhóm, hoàn thành công việc, khoảng thời gian chạy sự kiện có thể  làm việc nhiều hơn 
-●	Tự chịu trách nhiệm bất cứ việc làm của bản thân theo từng mức độ hình phạt: tài chính,  làm việc,... rời khỏi CLB 
-●	Cụ thể nội quy CLB sẽ được phổ biến khi là thành viên chính thức. 
-QUYỀN LỢI CHUNG 
-●	Được truy cập vào nguồn tài nguyên Google Developer 
-●	Nhận các quà tặng từ Google/Google Developer dựa trên khả năng hoàn thành công việc.
-●	Mở rộng mối quan hệ, có cơ hội được kết nối trong cộng đồng Google Developer và các  chuyên gia trong lĩnh vực công nghệ 
-●	Nâng cao kỹ năng chuyên sâu và tầm nhìn thông qua các hoạt động thực tiễn, các buổi  hội thảo, trao đổi, thảo luận 
-●	Tiếp cận các cơ hội học tập, làm việc, các cuộc thi, sự kiện Công nghệ liên quan.
-●	Được làm việc cả online và offline, giờ giấc linh hoạt 
-●	Được giao lưu, làm việc trong môi trường chuyên nghiệp, năng động, hòa đồng.
-●	Được training kiến thức của các ban 
-●	Nâng cao kỹ năng mềm: teamwork, thuyết trình, xử lý công việc,v.v... 
-●	Nhận certificate cuối nhiệm kỳ khi hoàn thành trên 80% công việc. 
-Đặc biệt: Cơ hội với tới vị trí trong core team/ GDG on Campus: PTIT Lead nếu thể hiện xuất sắc trong công việc và có tinh thần lãnh đạo.
+TỔNG QUAN VỀ GDG ON CAMPUS: PTIT
+GDG on Campus: PTIT là tên gọi viết tắt của "Google Developer Groups on Campus: PTIT" - câu lạc bộ được Google cấp quyền tổ chức và hỗ trợ, dành cho sinh viên có niềm yêu thích CNTT nói chung và công nghệ Google nói riêng. CLB chính thức gia nhập mạng lưới GDSC toàn cầu vào tháng 9 năm 2022.
 
-TECHNICAL DEPARTMENT 
-MÔ TẢ CÔNG VIỆC 
-Hoạt động đào tạo và lập trình sản phẩm là một trong những hoạt động cốt lõi, chủ yếu  nhất của CLB. GDG on Campus: PTIT đang tìm kiếm những người bạn đồng hành có niềm đam mê về  lĩnh vực này. Bạn sẽ là người tham gia xây dựng các sản phẩm, dự án về công nghệ của CLB, hỗ trợ team PR về những content liên quan đến công nghệ, đồng thời hỗ trợ các team khác các vấn  đề về công nghệ để có thể giải quyết công việc năng suất, hiệu quả hơn. 
-NỘI DUNG CÔNG VIỆC 
-●	Tham gia đào tạo/được đào tạo các công nghệ liên quan: training nội bộ CLB/khoá học, cuộc thi Google tổ chức,… 
-●	Xây dựng các sản phẩm công nghệ cùng các thành viên trong CLB
-●	Tham gia và hỗ trợ các sự kiện công nghệ do CLB tổ chức 
-●	Chia sẻ kiến thức về công nghệ, dùng khả năng/sản phẩm công nghệ của mình để hỗ trợ  các team khác làm việc tốt hơn. 
-PHÁT TRIỂN DỰ ÁN
-●	Cơ hội cọ xát thực chiến: Tham gia vào các dự án nhỏ có tính sáng tạo, từ đó học cách biến ý tưởng thành sản phẩm thực tế.
-●	Rèn kỹ năng teamwork: Không chỉ biết code, mà còn học cách phối hợp, phân chia task, quản lý deadline.
-●	Học hỏi quy trình làm sản phẩm: Được trải nghiệm quy trình từ phân tích yêu cầu, thiết kế, phát triển, test đến deploy, gần giống công việc thực tế của lập trình viên.
-●	Tham gia cuộc thi công nghệ: Có cơ hội đem sản phẩm đi thi đấu ở các hackathon, contest,....
-●	Mentor hỗ trợ: Được hướng dẫn bởi các anh chị trong CLB, tránh cảnh bơi trong bug vô tận mà không ai cứu.
-HỖ TRỢ HỌC THUẬT
-●	Trải nghiệm hệ thống làm bài online: nền tảng online judge riêng của CLB để luyện code, làm quiz, nộp bài tập.
-●	Tự động chấm điểm: Nộp code xong biết ngay đúng sai, không phải chờ “thầy chấm” hay mất công chạy tay.
-●	Lưu trữ lịch sử học tập: Theo dõi tiến trình luyện tập của bản thân, thấy rõ mình đang mạnh ở đâu, yếu ở đâu.
-●	Kho đề phong phú: Có sẵn các bài tập từ cơ bản đến nâng cao, bám sát môn học trên trường, dễ ôn thi cuối kỳ.
-●	Môi trường thực hành chuyên nghiệp: Giống như mấy judge online (Kiểu LeetCode, Codeforces mini phiên bản PTIT), vừa học vừa quen với format thi thực tế.
-●	Cộng đồng cùng học: Làm bài trên chung một nền tảng, có leaderboard, có trao đổi thảo luận, kích thích cạnh tranh healthy.
-YÊU CẦU CÔNG VIỆC 
-●	Có kiến thức cơ bản về lập trình, đặc biệt các công nghệ của Google là 1 lợi thế.
-●	Ham học hỏi, thường xuyên update công nghệ mới 
-●	Có tính kiên trì, sẵn sàng học hỏi và tiếp thu kiến thức mới 
-●	 Biết lắng nghe, đóng góp khi đang xây dựng dự án 
-●	Tư duy mở và sẵn sàng tiếp nhận cũng như đóng góp với mọi người trong team 
-●	Thích ứng với văn hoá chung của GDG on Campus: PTIT và đảm bảo thời gian làm việc trong nhiệm kỳ năm học 2025-2026).
+GDG on Campus: PTIT có sứ mệnh tạo ra một cộng đồng dành cho những người đam mê công nghệ, nơi có thể học tập, chia sẻ và cống hiến. CLB hoạt động chủ yếu với 2 mảng: Technical Department và Non-Technical Department.
 
+Website chính thức: https://gdscptit.dev
+Fanpage: https://www.facebook.com/gdsc.ptit
+Instagram: @gdsc.ptit
+Email: contact@gdscptit.dev
+Hotline: 0869 276 128 (Ms. Thoa)
 
-NON-TECHNICAL DEPARTMENT - PR 
-MÔ TẢ CÔNG VIỆC 
-PR là vị trí tận dụng khả năng sáng tạo vào việc sản xuất nội dung trên các phương tiện  truyền thông để thu hút khán giả. Phối hợp với các thành viên và phòng ban khác để lên nội dung  và kế hoạch truyền thông. Quản lý, kiểm duyệt và điều chỉnh nội dung trên các kênh truyền thông  của GDG on Campus: PTIT. 
-NỘI DUNG CÔNG VIỆC 
-●	Tham gia lập kế hoạch và triển khai nội dung trên các phương tiện truyền thông • Nghiên cứu, nắm bắt xu hướng và sáng tạo nội dung cho các kênh và các sự kiện • Quản lý các kênh truyền thông (Fanpage,Linkedin,...): tương tác, phản hồi tin  nhắn, bình luận,… 
-●	Phối hợp với designer và các phòng ban khác để xây dựng hình ảnh phù hợp với đối  tượng mục tiêu 
-●	Phân tích số liệu nội dung trên các nền tảng để hiểu các vấn đề và triển khai các giải  pháp. 
-YÊU CẦU CÔNG VIỆC 
-●	Khả năng sáng tạo, xây dựng nội dung 
-●	Có khả năng viết, phong cách viết trẻ trung, hiện đại, phù hợp đối tượng mục tiêu 
-●	Chủ động tìm tòi, sáng tạo các nội dung mới, cập nhật các xu hướng 
-●	Khả năng giao tiếp và làm việc nhóm, quản lý thời gian và trách nhiệm với công việc • Biết sử dụng các công cụ của Google (Google Docs, Google Sheets, Google Slides,... ) là  một lợi thế 
-●	Có đam mê Công nghệ, thích ứng với văn hoá chung của GDGoC: PTIT và đảm bảo thời gian  làm việc trong nhiệm kỳ năm học (2025-2026).
+TUYỂN THÀNH VIÊN GEN 4 - NHIỆM KỲ 2025-2026
+GDG on Campus: PTIT đang tuyển thành viên thế hệ thứ 4 với mong muốn tìm ra những nhân tố tích cực để cùng nhau xây dựng một cộng đồng sinh viên gắn kết, năng động và bền vững.
+
+THÔNG TIN ĐANG MỞ ĐĂNG KÍ:
+- Link đăng ký: https://gdscptit.dev/
+- Hạn đăng ký: 23:59 PM, ngày 11/09/2025
+- Các vị trí ĐANG MỞ ĐĂNG KÍ: Technical, Media, Nhân sự - Hậu cần(HRLG), Truyền thông (PR), Design
+
+YÊU CẦU CHUNG CHO TẤT CẢ VỊ TRÍ
+- Là sinh viên tại Hà Nội, có đam mê công nghệ và yêu thích GDG on Campus: PTIT
+- Cam kết làm việc nghiêm túc, có trách nhiệm với CLB đến hết năm học 2025-2026
+- Thời gian làm việc: 8-10 giờ/tuần (họp ban, họp nhóm, hoàn thành công việc)
+- Tự chịu trách nhiệm với công việc của mình
+- Tuân thủ nội quy CLB (sẽ được phổ biến khi trở thành thành viên chính thức)
+
+QUYỀN LỢI CHUNG KHI THAM GIA CLB
+- Truy cập nguồn tài nguyên Google Developer và nhận quà tặng từ Google
+- Mở rộng mối quan hệ trong cộng đồng Google Developer và chuyên gia công nghệ
+- Nâng cao kỹ năng chuyên sâu qua các hoạt động thực tiễn, workshop, hội thảo
+- Tiếp cận cơ hội học tập, làm việc, cuộc thi và sự kiện công nghệ
+- Làm việc linh hoạt online/offline trong môi trường chuyên nghiệp, năng động
+- Training kiến thức chuyên môn và kỹ năng mềm (teamwork, thuyết trình, xử lý công việc)
+- Nhận certificate cuối nhiệm kỳ khi hoàn thành trên 80% công việc
+- Cơ hội trở thành core team hoặc GDG on Campus: PTIT Lead nếu thể hiện xuất sắc
+
+BAN TECHNICAL - PHÁT TRIỂN CÔNG NGHỆ
+Ban Technical là bộ phận cốt lõi của GDG on Campus: PTIT, chuyên về đào tạo và phát triển sản phẩm công nghệ. Thành viên ban Tech sẽ tham gia xây dựng các dự án công nghệ của CLB, hỗ trợ các team khác về mặt kỹ thuật và chia sẻ kiến thức công nghệ.
+
+CÔNG VIỆC CỦA BAN TECHNICAL:
+- Tham gia đào tạo công nghệ: training nội bộ CLB, khóa học, cuộc thi Google
+- Xây dựng sản phẩm công nghệ cùng các thành viên trong CLB
+- Tham gia và hỗ trợ kỹ thuật cho các sự kiện của CLB
+- Chia sẻ kiến thức và hỗ trợ các team khác về công nghệ 
+CƠ HỘI PHÁT TRIỂN DỰ ÁN TRONG BAN TECHNICAL:
+- Thực chiến với dự án sáng tạo: biến ý tưởng thành sản phẩm thực tế
+- Rèn kỹ năng teamwork: học cách phối hợp, phân chia công việc, quản lý deadline
+- Trải nghiệm quy trình phát triển sản phẩm hoàn chỉnh (phân tích, thiết kế, phát triển, test, deploy)
+- Tham gia cuộc thi công nghệ: hackathon, contest với sản phẩm của CLB
+- Hướng dẫn từ mentor: được các anh chị trong CLB hỗ trợ kỹ thuật
+
+HỖ TRỢ HỌC THUẬT CHO BAN TECHNICAL:
+- Hệ thống online judge riêng của CLB để luyện code, làm quiz, nộp bài tập
+- Tự động chấm điểm và feedback tức thì
+- Theo dõi tiến trình học tập cá nhân, xác định điểm mạnh/yếu
+- Kho bài tập phong phú từ cơ bản đến nâng cao, bám sát môn học PTIT
+- Môi trường thực hành chuyên nghiệp (tương tự LeetCode, Codeforces)
+- Cộng đồng học tập với leaderboard và thảo luận
+YÊU CẦU ĐỐI VỚI BAN TECHNICAL:
+- Có kiến thức cơ bản về lập trình, tuy nhiên không có kiến thức vẫn được đào tạo. (ưu tiên có hiểu biết về công nghệ Google)
+- Ham học hỏi, thường xuyên cập nhật công nghệ mới
+- Kiên trì, sẵn sàng học hỏi và tiếp thu kiến thức mới
+- Biết lắng nghe và đóng góp trong các dự án nhóm
+- Có tư duy mở, sẵn sàng chia sẻ và học hỏi từ team
+- Thích ứng với văn hóa GDG on Campus: PTIT và cam kết thời gian làm việc
 
 
-NON-TECHNICAL DEPARTMENT - DESIGN 
-MÔ TẢ CÔNG VIỆC 
-Designer là vị trí tạo ra sản phẩm thiết kế dựa trên branding Google. Vị trí này sẽ là người định hình lên những giá trị hình ảnh trên mạng xã hội, ấn phẩm trong sự kiện từ những ý tưởng được tạo ra bởi GDSC-PTIT. 
-NỘI DUNG CÔNG VIỆC 
-●	Tạo ra các ấn phẩm thiết kế cho các nền tảng truyền thông của GDG on Campus:PTIT và thực hiện các ấn phẩm quảng bá khác (in ấn offline, slide…) 
-●	Sử dụng những màu sắc và bố cục hài hòa cho mỗi sản phẩm, đề xuất ý tưởng thiết kế phù hợp với hình ảnh của GDG on Campus:PTIT. 
-●	Cộng tác với các thành viên và phòng ban khác để thực hiện và hoàn thành kế hoạch.
-YÊU CẦU CÔNG VIỆC 
-●	Khả năng thiết kế ấn phẩm truyền thông và tư duy sáng tạo (bố cục, màu sắc,...)
-●	Ham học hỏi, kiên trì và sẵn sàng đổi mới, lắng nghe tiếp thu ý kiến
-●	Biết sử dụng các công cụ của Google (Google Docs, Google Sheets, Google Slides,... )
-●	Hiểu biết cơ bản các công cụ, phần mềm thiết kế (Ps, Ai,...) là một lợi thế
-●	Khả năng giao tiếp và làm việc nhóm, quản lý thời gian, trách nhiệm với công việc 
-●	Có đam mê và thích ứng với văn hóa chung của GDG on Campus:PTIT, đảm bảo thời gian làm việc trong nhiệm kỳ năm học (2025-2026).
+BAN TRUYỀN THÔNG PR - MARKETING VÀ TRUYỀN THÔNG
+Ban PR chuyên về sản xuất nội dung và truyền thông cho GDG on Campus: PTIT. Thành viên ban PR tận dụng khả năng sáng tạo để sản xuất nội dung thu hút trên các phương tiện truyền thông, phối hợp với các ban khác để xây dựng kế hoạch truyền thông và quản lý các kênh truyền thông của CLB.
 
-NON-TECHNICAL DEPARTMENT | NHÂN SỰ-HẬU CẦN
-MÔ TẢ CÔNG VIỆC
-Là một thành viên của ban Nhân sự - Hậu cần, bạn sẽ là người điều hành, kết nối và đảm bảo guồng máy GDG on Campus: PTIT vận hành một cách trơn tru nhất.
-NỘI DUNG CÔNG VIỆC
-●	Lập kế hoạch & Tổ chức:
-○	Lên ý tưởng, xây dựng và "chủ xị" các hoạt động gắn kết thành viên (sinh hoạt hàng tuần, team building, tiệc sinh nhật...).
-○	Đầu tàu trong việc lên kế hoạch và tổ chức các đợt tuyển quân hoặc các buổi training kỹ năng cho thành viên.
-●	Điều phối & Hỗ trợ:
-○	Theo dõi tiến độ công việc của các ban khác, đóng vai trò điều phối viên để đảm bảo mọi dự án đều đi đúng mục tiêu.
-○	Là "hậu phương vững chắc", hỗ trợ các ban khác về công tác hậu cần cho các sự kiện.
-●	Vận hành & Gắn kết:
-○	Xây dựng các kế hoạch đánh giá, vinh danh và khen thưởng để ghi nhận sự đóng góp của các thành viên.
-○	Chăm sóc đời sống tinh thần của CLB, là người lắng nghe, quan tâm và khéo léo xử lý các mâu thuẫn nội bộ.
-●	Quản lý & Giấy tờ:
-○	Là "tay hòm chìa khóa" quản lý nguồn tài chính của Câu lạc bộ.
-○	Chịu trách nhiệm soạn thảo, quản lý các giấy tờ, thư từ, văn kiện quan trọng liên quan đến CLB.
-YÊU CẦU CÔNG VIỆC
-●	Về tính cách: Bạn cẩn thận, tinh tế, nhiệt tình, chủ động và luôn có tinh thần học hỏi, không ngại thử thách.
-●	Về kỹ năng:
-○	Giao tiếp tự tin, hòa đồng, biết lắng nghe và có khả năng xử lý tình huống tốt.
-○	Có kỹ năng bonding, thích tổ chức các hoạt động gắn kết mọi người.
-○	Kỹ năng làm việc nhóm tốt và có trách nhiệm cao với công việc chung.
-○	Biết sử dụng các công cụ văn phòng của Google (Docs, Sheets, Slides,...) là một lợi thế lớn!
-●	Về cam kết:
-○	Chủ động sắp xếp thời gian dành cho các hoạt động của CLB.
-○	Có đam mê với môi trường CLB, thích ứng nhanh với văn hóa chung của GDGOC: PTIT.
-○	Cam kết đồng hành cùng CLB trong suốt nhiệm kỳ năm học (2025-2026).
-Ai có thể tham gia GDSC - PTIT?
-Tất cả sinh viên từ PTIT và các trường đại học khác đều có thể tham gia GDSC - PTIT, không phân biệt ngành học hay năm học. Câu lạc bộ chào đón tất cả những ai có đam mê về công nghệ, muốn học hỏi và phát triển bản thân.
-GDSC - PTIT có yêu cầu gì về trình độ lập trình trước khi tham gia? Không biết Tech có vào CLB được không? Năm nhất chưa biết gì vào CLB được không? Nếu mình là sinh viên năm nhất, chưa có kinh nghiệm gì về lập trình thì có được đào tạo hay không?
-Có, câu lạc bộ luôn chào đón bạn và sẽ giúp bạn học hỏi thêm các kiến thức chuyên môn cũng như những kĩ năng cần thiết để phát triển bản thân. Ngoài ra, bạn còn có thể apply vào các ban non-tech khác như HR-LG, PR,... miễn bạn có đủ yêu thích và đam mê với công nghệ và cộng đồng GDG
+CÔNG VIỆC CỦA BAN PR:
+- Lập kế hoạch và triển khai nội dung trên các phương tiện truyền thông
+- Nghiên cứu xu hướng và sáng tạo nội dung cho các kênh, sự kiện
+- Quản lý kênh truyền thông (Facebook, LinkedIn): tương tác, phản hồi, bình luận
+- Phối hợp với ban Design và các ban khác để xây dựng hình ảnh phù hợp
+- Phân tích số liệu nội dung và đề xuất giải pháp cải thiện 
+YÊU CẦU ĐỐI VỚI BAN PR:
+- Khả năng sáng tạo và xây dựng nội dung
+- Có khả năng viết với phong cách trẻ trung, hiện đại, phù hợp đối tượng mục tiêu
+- Chủ động tìm tòi, sáng tạo nội dung mới và cập nhật xu hướng
+- Kỹ năng giao tiếp, làm việc nhóm, quản lý thời gian tốt
+- Biết sử dụng công cụ Google (Docs, Sheets, Slides) là lợi thế
+- Có đam mê công nghệ và thích ứng với văn hóa GDG on Campus: PTIT
 
 
-Thành viên GDSC - PTIT sẽ tham gia vào những hoạt động nào?
-Thành viên sẽ được tham gia vào các buổi workshop, seminar, hackathon, làm việc nhóm trong các dự án cộng đồng, cũng như các buổi networking với các chuyên gia trong ngành. Đối với các bạn tham gia ở các ban non-tech, các hoạt động có thể bao gồm tổ chức sự kiện, quản lý nhân sự - hậu cần, truyền thông, thiết kế đồ họa, và nhiều hơn nữa.
+BAN DESIGN - THIẾT KẾ ĐỒ HỌA
+Ban Design chuyên về tạo ra các sản phẩm thiết kế dựa trên branding Google. Thành viên ban Design sẽ định hình giá trị hình ảnh trên mạng xã hội và các ấn phẩm sự kiện từ những ý tưởng của GDG on Campus: PTIT.
 
-Mình có thể tham gia GDSC - PTIT cùng lúc với việc tham gia các câu lạc bộ khác không?
-Có, bạn hoàn toàn có thể tham gia GDSC - PTIT song song với các câu lạc bộ khác tại trường hoặc trường khác, miễn là bạn có thể cân bằng thời gian và hoàn thành các nhiệm vụ của mình.
+CÔNG VIỆC CỦA BAN DESIGN:
+- Tạo ấn phẩm thiết kế cho các nền tảng truyền thông của CLB
+- Thiết kế ấn phẩm quảng bá (in ấn offline, slide, poster)
+- Sử dụng màu sắc và bố cục hài hòa theo branding Google
+- Đề xuất ý tưởng thiết kế phù hợp với hình ảnh GDG on Campus: PTIT
+- Cộng tác với các ban khác để hoàn thành kế hoạch
 
-Nếu mình là sinh viên trường khác không phải là sinh viên của PTIT, mình có thể tham gia GDSC - PTIT không?
-Có, GDSC - PTIT luôn chào đón tất cả các bạn sinh viên, dù bạn học ở bất kỳ trường nào. Chúng tôi khuyến khích sự đa dạng và tin rằng sự đóng góp của bạn sẽ mang lại giá trị lớn cho cộng đồng của chúng tôi.
+YÊU CẦU ĐỐI VỚI BAN DESIGN:
+- Khả năng thiết kế ấn phẩm truyền thông và tư duy sáng tạo về bố cục, màu sắc
+- Ham học hỏi, kiên trì và sẵn sàng đổi mới, lắng nghe ý kiến
+- Biết sử dụng công cụ Google (Docs, Sheets, Slides)
+- Hiểu biết cơ bản về phần mềm thiết kế (Photoshop, Illustrator) là lợi thế
+- Kỹ năng giao tiếp, làm việc nhóm và quản lý thời gian tốt
+- Có đam mê và thích ứng với văn hóa GDG on Campus: PTIT
 
-Ban PR có yêu cầu kinh nghiệm viết bài không?
-Không cần đâu nhé, chúng mình sẽ có các buổi training cho bạn để bạn rõ hơn về cách viết bài cũng như văn hoá CLB nè. 
+BAN NHÂN SỰ - HẬU CẦN (HRLG)
+Ban Nhân sự - Hậu cần là bộ phận điều hành và kết nối, đảm bảo guồng máy GDG on Campus: PTIT vận hành trơn tru. Thành viên HRLG sẽ là cầu nối giữa các ban và chịu trách nhiệm về tổ chức, quản lý nội bộ CLB.
 
-Năm 3 năm 4 cuối cấp vào CLB được không?
-Các bạn vẫn có thể tham gia CLB miễn là cân bằng được giữa thời gian học tập và thời gian tham gia các hoạt động
+CÔNG VIỆC CỦA BAN NHÂN SỰ - HẬU CẦN:
 
-Cơ hội giao lưu học hỏi kinh nghiệm thêm với anh chị đi trước?
-Chắc chắn là được nhé, chúng mình là cộng đồng mở luôn luôn có các anh chị từ các gen luôn luôn sẵn lòng chia sẻ các kinh nghiệm và kiến thức chưa kể còn nhiều khi được anh chị gửi nhiều đặc quyền như canva pro,…
+Lập kế hoạch & Tổ chức:
+- Lên ý tưởng và tổ chức các hoạt động gắn kết thành viên (sinh hoạt hàng tuần, team building, tiệc sinh nhật)
+- Lập kế hoạch và tổ chức tuyển thành viên, training kỹ năng
 
-Kế hoạch lộ trình đào tạo, training của Tech trong CLB?
-CLB có kế hoạch đào tạo để thi các cuộc thi của trường như là ICPC không ạ
-Kế hoạch đào tạo của ban Tech trong CLB chia thành hai hướng chính:
-Đào tạo phục vụ phát triển sản phẩm & hackathon
-Đào tạo học thuật giúp các bạn cải thiện kiến thức lập trình trên lớp
+Điều phối & Hỗ trợ:
+- Theo dõi tiến độ công việc các ban, đóng vai trò điều phối viên
+- Hỗ trợ hậu cần cho các sự kiện của CLB
 
-Mình muốn biết thêm hoạt động của ban Tech?
-Phát triển dự án thực chiến: build sản phẩm hoàn chỉnh hơn từ prototype.
-Tham gia/chuẩn bị hackathon: training nâng cao, phân vai rõ ràng.
-Workshop chuyên sâu: về Firebase nâng cao, DevOps, Security, hoặc mảng hot (AI, blockchain…).
-Mentoring liên tục: hỗ trợ thành viên mới, review code, định hướng stack.
-Open-source & cộng đồng: đóng góp repo chung, viết docs, chia sẻ kinh nghiệm.
+Vận hành & Gắn kết:
+- Xây dựng kế hoạch đánh giá, vinh danh và khen thưởng thành viên
+- Chăm sóc đời sống tinh thần CLB, lắng nghe và xử lý mâu thuẫn nội bộ
 
-Mình muốn biết thêm hoạt động của ban Truyền thông PR?
-Ngoài viết bài đảm bảo hình ảnh trên page CLB thì ban truyền thông sẽ đảm nhiệm những nhiệm vụ như là làm việc với ban Design và Media để chịu trách nhiệm sản xuất ra hình ảnh của page, chạy sự kiện của CLB và các bên cộng đồng của Google nữa nhé
+Quản lý & Giấy tờ:
+- Quản lý nguồn tài chính của CLB
+- Soạn thảo, quản lý giấy tờ, thư từ, văn kiện quan trọng
+YÊU CẦU ĐỐI VỚI BAN NHÂN SỰ - HẬU CẦN:
+- Tính cách: cẩn thận, tinh tế, nhiệt tình, chủ động, có tinh thần học hỏi
+- Kỹ năng giao tiếp tự tin, hòa đồng, biết lắng nghe và xử lý tình huống tốt
+- Có kỹ năng bonding, thích tổ chức hoạt động gắn kết
+- Kỹ năng làm việc nhóm tốt và trách nhiệm cao với công việc
+- Biết sử dụng công cụ Google (Docs, Sheets, Slides) là lợi thế lớn
+- Chủ động sắp xếp thời gian cho hoạt động CLB
+- Có đam mê và thích ứng nhanh với văn hóa GDG on Campus: PTIT
+- Cam kết đồng hành cùng CLB trong suốt nhiệm kỳ 2025-2026
+NHỮNG CÂU HỎI THƯỜNG GẶP (FAQ)
 
-Mình muốn biết thêm hoạt động của ban nhân sự hậu cần HRLG?
-Trong GDGoC PTIT thì HRLG chính là team “xương sống” đứng sau mọi sự kiện:
-HR (nhân sự):
-Lo quản lý member: điểm danh, phân ca trực bàn truyền thông, chia ai trực booth, ai làm minigame.
-Điều phối: nhắc ai lên sân khấu, gọi người chơi, sắp xếp MC.
-Kết nối nội bộ: động viên tinh thần anh em, đảm bảo mọi người đều có việc rõ ràng, không ai bị lạc lõng.
+Ai có thể tham gia GDG on Campus: PTIT?
+Tất cả sinh viên từ PTIT và các trường đại học khác đều có thể tham gia, không phân biệt ngành học hay năm học. CLB chào đón tất cả những ai có đam mê về công nghệ, muốn học hỏi và phát triển bản thân.
 
-LG (hậu cần):
-Đạo cụ – vật dụng: chuẩn bị quà, giấy bút, bảng tên, loa, mic, dây điện…
-Set up: trang trí bàn truyền thông, backdrop, standee, khu vực check-in.
-Giải quyết sự cố: thiếu ghế, hỏng mic, đứt dây… team này nhảy vào xử ngay.
+Sinh viên năm nhất chưa biết lập trình có thể tham gia không?
+Hoàn toàn có thể! CLB sẽ đào tạo các kiến thức chuyên môn và kỹ năng cần thiết để phát triển bản thân. Ngoài ban Technical, bạn có thể apply vào các ban non-tech như HRLG, PR, Design miễn có đam mê với công nghệ và cộng đồng GDG.
 
-Clb tuyển thành viên dựa trên những tiêu chí nào, và tiêu chí nào là quan trọng nhất.
-Chúng mình tuyển thành viên dựa trên nhiều yếu tố như tính cách, chuyên môn, và mức độ phù hợp với CLB. Chúng mình sẽ chọn những bạn sau vòng thử việc mà có tính cách năng nổ, có đủ thời gian và tâm huyết đi cùng CLB thì chúng mình đều rất là welcome ne^^.
-Sinh viên năm hai đã học qua C và C++ rồi thì có phải học lại không ạ
-Không nhất thiết phải học lại C/C++ từ đầu đâu. Nếu đã qua môn rồi thì coi như có nền tảng tư duy lập trình rồi. Cái cần là:
-Ôn lại những thứ cốt lõi: biến, hàm, con trỏ, cấu trúc dữ liệu cơ bản… (nếu còn hổng chỗ nào).
-Học cái mới phục vụ dự án: Python, JavaScript, hoặc framework hiện đại (React, Node.js, v.v.).
-Chuyển mindset: từ “làm bài tập trên lớp” sang “xây sản phẩm thực tế”, tức là quan tâm nhiều hơn đến clean code, teamwork, quản lý dự án, không chỉ code chạy được.
 
-Em muốn hỏi tiêu chí để vượt qua vòng thử thách để trở thành thành viên của GDSC-PTIT có khắt khe không ạ?
-Để vào CLB thì mọi người đều phải trải qua vòng phỏng vấn và vòng thử việc nhé, không quá khắt khe nhưng mà sẽ đủ và vừa sức tất cả mọi người đều có thể vượt qua nhé.
-Sự khác biệt lớn nhất giữa clb của mình với các clb về IT khác trong trường là gì?
-Ở CLB nào cũng có điểm khác nhau riêng, đối với bên mình thì ngay từ cái tên thui cũng đã thể hiện điểm khác biệt là “Google” rùi nhỉ^^, bên CLB ngoài được học về giải thuật như cách học tập các môn trên trường tốt như C, Python,.. thì chúng mình sẽ training các công cụ Google mọi người được dùng tài nguyên công nghệ Google cấp để làm các dự án về công nghệ nhé.
+Thành viên sẽ tham gia những hoạt động gì?
+Thành viên sẽ được tham gia workshop, seminar, hackathon, làm việc nhóm trong dự án cộng đồng, networking với chuyên gia công nghệ. Các ban non-tech sẽ tham gia tổ chức sự kiện, quản lý nhân sự-hậu cần, truyền thông, thiết kế đồ họa.
 
-CLB có thể cho mình biết lịch hoạt động của clb?
-CLB làm việc lịch hoạt động linh hoạt cả online lẫn offline nhé, lịch hoạt động cũng tùy theo sự kiện của CLB nữa thì mức độ hoạt động sẽ khác nhau. Nhưng yên tâm là sẽ đủ thời gian để mọi người vừa học tập vừa làm việc nhé^^ sẽ không nặng quá đâu nè.
-Mình muốn hỏi là CLB hoạt động quy mô trong trường hay tổ chức bên ngoài nữa ạ?
-CLB hiện vẫn đang hoạt động chủ yếu là trong trường, ngoài ra CLB thuộc cộng đồng Google Developer Groups nên nếu có sự kiện của cộng đồng lớn như GDG Hà Nội, GDG Cloud,… thì CLB đều được tham gia hỗ trợ hoặc tham gia để đi loot quà nè ^^.
+Có thể tham gia CLB cùng lúc với câu lạc bộ khác không?
+Có, hoàn toàn có thể tham gia song song với các CLB khác miễn là cân bằng được thời gian và hoàn thành nhiệm vụ.
+
+Sinh viên trường khác có thể tham gia không?
+Có, GDG on Campus: PTIT chào đón tất cả sinh viên dù học ở trường nào. CLB khuyến khích sự đa dạng và tin rằng mỗi thành viên đều mang lại giá trị cho cộng đồng.
+
+Ban PR có cần kinh nghiệm viết bài trước không?
+Không cần kinh nghiệm trước, CLB sẽ có các buổi training về cách viết bài và văn hóa CLB.
+
+Sinh viên năm 3-4 có thể tham gia không?
+Có thể tham gia miễn là cân bằng được thời gian học tập và hoạt động CLB.
+
+Có cơ hội giao lưu với anh chị các thế hệ trước không?
+Có, GDG on Campus: PTIT là cộng đồng mở với các anh chị từ các gen trước luôn sẵn lòng chia sẻ kinh nghiệm, kiến thức và nhiều đặc quyền như Canva Pro.
+
+Kế hoạch đào tạo của ban Technical như thế nào?
+Ban Tech có kế hoạch đào tạo theo hai hướng chính:
+- Đào tạo phục vụ phát triển sản phẩm & hackathon
+- Đào tạo học thuật giúp cải thiện kiến thức lập trình trên lớp và thi ICPC
+
+Hoạt động cụ thể của ban Technical bao gồm gì?
+- Phát triển dự án thực chiến: build sản phẩm hoàn chỉnh từ prototype
+- Tham gia/chuẩn bị hackathon: training nâng cao, phân vai rõ ràng
+- Workshop chuyên sâu: Firebase nâng cao, DevOps, Security, AI, blockchain
+- Mentoring liên tục: hỗ trợ thành viên mới, review code, định hướng stack
+- Open-source & cộng đồng: đóng góp repo chung, viết docs, chia sẻ kinh nghiệm
+
+Hoạt động cụ thể của ban PR bao gồm gì?
+Ban PR viết bài đảm bảo hình ảnh trên page CLB, làm việc với ban Design và Media để sản xuất hình ảnh, chạy sự kiện của CLB và cộng đồng Google.
+
+Hoạt động cụ thể của ban HRLG bao gồm gì?
+HRLG là team "xương sống" đứng sau mọi sự kiện:
+
+Nhân sự (HR): quản lý thành viên, điểm danh, phân ca trực, sắp xếp booth và minigame, điều phối MC, động viên tinh thần và kết nối nội bộ.
+
+Hậu cần (LG): chuẩn bị đạo cụ (quà, giấy bút, bảng tên, loa, mic), set up trang trí sự kiện, giải quyết sự cố kỹ thuật.
+
+CLB tuyển thành viên dựa trên tiêu chí gì?
+CLB tuyển thành viên dựa trên tính cách, chuyên môn và mức độ phù hợp với CLB. Ưu tiên những bạn có tính cách năng nổ, đủ thời gian và tâm huyết để đi cùng CLB.
+
+Sinh viên đã học C/C++ có cần học lại không?
+Không cần học lại từ đầu. Nếu đã qua môn thì đã có nền tảng tư duy lập trình. Cần:
+- Ôn lại kiến thức cốt lõi (biến, hàm, con trỏ, cấu trúc dữ liệu cơ bản)
+- Học công nghệ mới phục vụ dự án (Python, JavaScript, React, Node.js)
+- Chuyển mindset từ "làm bài tập" sang "xây sản phẩm thực tế"
+
+Quy trình tuyển thành viên có khắt khe không?
+Mọi người đều phải trải qua vòng phỏng vấn và vòng thử việc, không quá khắt khe nhưng đủ để đánh giá khả năng. Tất cả đều có thể vượt qua nếu cố gắng.
+
+GDG on Campus: PTIT khác biệt gì với các CLB IT khác?
+Điểm khác biệt là được Google cấp quyền và hỗ trợ. CLB không chỉ học giải thuật, lập trình cơ bản mà còn được training các công cụ Google và sử dụng tài nguyên công nghệ Google để làm dự án.
+
+Lịch hoạt động của CLB như thế nào?
+CLB hoạt động linh hoạt cả online và offline. Lịch hoạt động tùy theo sự kiện nhưng luôn đảm bảo thời gian để thành viên vừa học tập vừa tham gia CLB, không quá nặng.
+
+CLB chỉ hoạt động trong trường hay có hoạt động bên ngoài?
+CLB hoạt động chủ yếu trong trường. Vì thuộc cộng đồng Google Developer Groups nên khi có sự kiện lớn của GDG Hà Nội, GDG Cloud, thành viên được tham gia hỗ trợ hoặc tham dự.
+
+THÔNG TIN BỔ SUNG VỀ CÁC THUẬT NGỮ VÀ TỪ KHÓA
+GDG on Campus: PTIT còn được gọi là GDSC PTIT, Google Developer Student Club PTIT, hay đơn giản là GDG PTIT. Câu lạc bộ gồm có các ban: Technical (Tech), Truyền thông (PR, Public Relations, Marketing), Design (Thiết kế đồ họa), Nhân sự - Hậu cần (HRLG, HR-LG, Human Resources - Logistics), Media.
+
+Từ khóa liên quan: tuyển thành viên, tuyển sinh, đăng ký, apply, ứng tuyển, gen 4, thế hệ 4, nhiệm kỳ 2025-2026, sinh viên, đại học, PTIT, Bưu chính Viễn thông, công nghệ, lập trình, coding, developer, Google, workshop, seminar, hackathon, training, học tập, phát triển, community, cộng đồng.

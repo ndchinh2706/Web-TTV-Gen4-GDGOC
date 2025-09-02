@@ -193,8 +193,31 @@ class RAGService:
             logger.error(f"Error in similarity search: {e}")
             return []
     
+    def is_greeting_or_help(self, query: str) -> bool:
+        """Check if the query is a greeting or help request"""
+        greetings = [
+            'xin chào', 'chào', 'hello', 'hi', 'hey', 'chào bạn', 'chào em',
+            'good morning', 'good afternoon', 'good evening', 'kính chào'
+        ]
+        help_requests = [
+            'giúp', 'help', 'hướng dẫn', 'instruction', 'cách sử dụng',
+            'làm sao', 'thế nào', 'có thể', 'giải thích', 'explain'
+        ]
+        
+        query_lower = query.lower().strip()
+        
+        if any(greeting in query_lower for greeting in greetings):
+            return True
+            
+        if any(help_word in query_lower for help_word in help_requests):
+            return True
+            
+        return False
+    
     def is_relevant_query(self, query: str, relevant_chunks: List[Tuple[str, float]]) -> bool:
         if not relevant_chunks:
+            if self.is_greeting_or_help(query):
+                return True
             return False
         
         best_score = relevant_chunks[0][1] if relevant_chunks else 0
@@ -203,7 +226,8 @@ class RAGService:
             'gdg', 'gdsc', 'google developer', 'google developers', 'ptit',
             'tuyển thành viên', 'tuyển sinh', 'đăng ký', 'technical', 'design',
             'truyền thông', 'nhân sự', 'hậu cần', 'câu lạc bộ', 'clb',
-            'sự kiện', 'hoạt động', 'training', 'dự án', 'gen 4', 'tech', 'hrlg', 'pr'
+            'sự kiện', 'hoạt động', 'training', 'dự án', 'gen 4', 'tech', 'hrlg', 'pr',
+            'apply', 'ứng tuyển', 'coding', 'lập trình', 'developer', 'community', 'cộng đồng'
         ]
         
         query_lower = query.lower()
@@ -213,24 +237,47 @@ class RAGService:
             similarity_threshold = self.config.get('SIMILARITY_THRESHOLD', 0.3)
         else:
             similarity_threshold = getattr(self.config, 'SIMILARITY_THRESHOLD', 0.3)
+        
+        if self.is_greeting_or_help(query):
+            return True
+            
         return best_score >= similarity_threshold or has_keywords
     
     def create_prompt(self, query: str, context_chunks: List[str]) -> str:
         context = "\n\n".join(context_chunks)
         
-        prompt = f"""Bạn là một chatbot hỗ trợ cho GDG on Campus: PTIT (Google Developer Groups on Campus: PTIT). Hãy trả lời câu hỏi dựa trên thông tin được cung cấp.
+        is_greeting_help = self.is_greeting_or_help(query)
+        
+        if is_greeting_help and not context_chunks:
+            prompt = f"""Bạn là một chatbot hỗ trợ thân thiện cho GDG on Campus: PTIT. Hãy chào hỏi một cách ấm áp và giới thiệu về khả năng hỗ trợ của bạn.
+
+CÂU HỎI/LỜI CHÀO: {query}
+
+QUY TẮC TRẢ LỜI:
+1. Chào hỏi thân thiện bằng tiếng Việt
+2. Giới thiệu ngắn gọn về GDG on Campus: PTIT
+3. Đưa ra một vài gợi ý về những câu hỏi mà người dùng có thể hỏi
+4. Khuyến khích tham gia CLB
+5. Xưng hô 2 ngôi là "tớ" và "cậu"
+6. Hãy tự nhiên và thân thiện như đang nói chuyện với bạn
+
+TRẢ LỜI:"""
+        else:
+            prompt = f"""Bạn là một chatbot hỗ trợ cho GDG on Campus: PTIT (Google Developer Groups on Campus: PTIT). Hãy trả lời câu hỏi dựa trên thông tin được cung cấp.
 
 THÔNG TIN VỀ GDG on Campus: PTIT:
 {context}
 
 QUY TẮC TRẢ LỜI:
-Với các câu hỏi đơn giản và cơ bản như chào hỏi, hãy chào hỏi một cách lịch sự. 
-1. Chỉ trả lời các câu hỏi liên quan đến GDG on Campus: PTIT
-2. Sử dụng thông tin từ ngữ cảnh được cung cấp ở trên
-3. Trả lời bằng tiếng Việt, thân thiện và chuyên nghiệp
-4. Nếu không có thông tin trong ngữ cảnh nhưng vấn liên quan tới CLB của chúng tôi, hãy thử trả lời một cách sát nhất, kèm theo nói "Nhưng tôi không được cung cấp thông tin về vấn đề này. Vui lòng liên hệ trực tiếp với GDG on Campus: PTIT qua fanpage https://www.facebook.com/gdsc.ptit để được hỗ trợ tốt nhất." Nếu không liên quan, hãy yêu cầu liên hệ qua fanpage.
-5. Luôn khuyến khích người dùng đăng kí tham gia CLB
-6. Xưng hô 2 ngôi là "tớ" và "cậu"
+1. Với câu hỏi chào hỏi hoặc yêu cầu hướng dẫn, hãy chào hỏi thân thiện và cung cấp thông tin hữu ích
+2. Chỉ trả lời các câu hỏi liên quan đến GDG on Campus: PTIT
+3. Sử dụng thông tin từ ngữ cảnh được cung cấp ở trên
+4. Trả lời bằng tiếng Việt, thân thiện và chuyên nghiệp
+5. Nếu không có thông tin trong ngữ cảnh nhưng vấn đề liên quan tới CLB, hãy trả lời sát nhất có thể và nói "Nhưng tớ không được cung cấp thông tin chi tiết về vấn đề này. Cậu vui lòng liên hệ trực tiếp với GDG on Campus: PTIT qua fanpage https://www.facebook.com/gdsc.ptit để được hỗ trợ tốt nhất nhé!"
+6. Luôn khuyến khích người dùng đăng ký tham gia CLB
+7. Xưng hô 2 ngôi là "tớ" và "cậu"
+8. Hãy tự nhiên và thân thiện như đang trò chuyện với bạn bè
+
 CÂU HỎI: {query}
 
 TRẢ LỜI:"""
