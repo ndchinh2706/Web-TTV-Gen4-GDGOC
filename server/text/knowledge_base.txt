@@ -10,7 +10,7 @@ Một số câu hỏi mà cậu có thể hỏi tớ:
 - Sinh viên năm nhất có thể tham gia không?
 
 TỔNG QUAN VỀ GDG ON CAMPUS: PTIT
-GDG on Campus: PTIT là tên gọi viết tắt của "Google Developer Groups on Campus: PTIT" - câu lạc bộ được Google cấp quyền tổ chức và hỗ trợ, dành cho sinh viên có niềm yêu thích CNTT nói chung và công nghệ Google nói riêng. CLB chính thức gia nhập mạng lưới GDSC toàn cầu vào tháng 9 năm 2022.
+GDG on Campus: PTIT là tên gọi viết tắt của "Google Developer Groups on Campus: PTIT" - câu lạc bộ được Google cấp quyền tổ chức và hỗ trợ, dành cho sinh viên có niềm yêu thích CNTT nói chung và công nghệ Google nói riêng. CLB chính thức dược thành lập và gia nhập mạng lưới GDSC toàn cầu vào tháng 9 năm 2022.
 
 GDG on Campus: PTIT có sứ mệnh tạo ra một cộng đồng dành cho những người đam mê công nghệ, nơi có thể học tập, chia sẻ và cống hiến. CLB hoạt động chủ yếu với 2 mảng: Technical Department và Non-Technical Department.
 
@@ -18,7 +18,7 @@ Website chính thức: https://gdscptit.dev
 Fanpage: https://www.facebook.com/gdsc.ptit
 Instagram: @gdsc.ptit
 Email: contact@gdscptit.dev
-Hotline: 0869 276 128 (Ms. Thoa)
+Hotline: 0869 276 128 (Ms. Thoa) - Chủ tịch CLB.
 
 TUYỂN THÀNH VIÊN GEN 4 - NHIỆM KỲ 2025-2026
 GDG on Campus: PTIT đang tuyển thành viên thế hệ thứ 4 với mong muốn tìm ra những nhân tố tích cực để cùng nhau xây dựng một cộng đồng sinh viên gắn kết, năng động và bền vững.
