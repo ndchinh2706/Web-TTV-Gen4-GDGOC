@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { FaComments, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import ChatBot from '@/components/ChatBot';
+import { useNavigate } from 'react-router-dom';  // Import useNavigate from react-router-dom
 
 interface FloatChatProps {
   open?: boolean;
@@ -21,23 +22,17 @@ export default function FloatChat({ open = false }: FloatChatProps) {
     return false;
   });
 
+  const navigate = useNavigate();  // Initialize useNavigate hook
+
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 768) {
-        setIsOpen(false);
-        localStorage.setItem('floatChatOpen', 'false');
-      }
-    };
-
-    handleResize();
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    // Check screen width on mount
+    if (window.innerWidth < 768) {
+      setIsOpen(false); // Close chat on mobile
+      localStorage.setItem('floatChatOpen', 'false'); // Persist the state in localStorage
+    }
   }, []);
 
-  // cập nhật localStorage mỗi khi isOpen thay đổi
+  // Update localStorage every time `isOpen` changes
   useEffect(() => {
     localStorage.setItem('floatChatOpen', String(isOpen));
   }, [isOpen]);
@@ -51,6 +46,17 @@ export default function FloatChat({ open = false }: FloatChatProps) {
   const buttonVariants = {
     hidden: { opacity: 0, scale: 0 },
     visible: { opacity: 1, scale: 1 },
+  };
+
+  // Handle button click for mobile
+  const handleChatButtonClick = () => {
+    if (window.innerWidth < 768) {
+      // If on mobile, navigate to the /chat page
+      navigate('/chatbot');
+    } else {
+      // If on larger screens, open the chat
+      setIsOpen(true);
+    }
   };
 
   return (
@@ -80,7 +86,7 @@ export default function FloatChat({ open = false }: FloatChatProps) {
 
       {!isOpen && (
         <motion.button
-          onClick={() => setIsOpen(true)}
+          onClick={handleChatButtonClick}  // Use the updated handler
           className="bg-blue-500 text-white p-3 rounded-full shadow-xl hover:bg-blue-600 transition-colors border-2 border-white"
           title="Mở chat"
           variants={buttonVariants}
