@@ -4,14 +4,19 @@ import { motion } from 'framer-motion';
 import ChatBot from '@/components/ChatBot';
 
 interface FloatChatProps {
-  open?: boolean; // nếu không truyền thì mặc định false
+  open?: boolean;
 }
 
 export default function FloatChat({ open = false }: FloatChatProps) {
   const [isOpen, setIsOpen] = useState<boolean>(() => {
     if (typeof window !== 'undefined') {
-      const isMobile = window.innerWidth < 768;
-      return isMobile ? false : open;
+      const saved = localStorage.getItem('floatChatOpen');
+      if (saved !== null) {
+        return saved === 'true';
+      } else {
+        localStorage.setItem('floatChatOpen', String(open || true));
+        return open || true;
+      }
     }
     return false;
   });
@@ -19,19 +24,23 @@ export default function FloatChat({ open = false }: FloatChatProps) {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setIsOpen(false); // luôn đóng khi đang ở mobile
-      } else {
-        setIsOpen(open); // đồng bộ với prop trên desktop
+        setIsOpen(false);
+        localStorage.setItem('floatChatOpen', 'false');
       }
     };
 
-    handleResize(); // chạy 1 lần khi mount
+    handleResize();
     window.addEventListener('resize', handleResize);
 
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [open]);
+  }, []);
+
+  // cập nhật localStorage mỗi khi isOpen thay đổi
+  useEffect(() => {
+    localStorage.setItem('floatChatOpen', String(isOpen));
+  }, [isOpen]);
 
   const chatVariants = {
     hidden: { opacity: 0, scale: 0.8, y: 50 },

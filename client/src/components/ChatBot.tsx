@@ -73,7 +73,6 @@ export default function ChatBot({
         return () => clearTimeout(timer);
     }, [messages, isTyping]);
 
-    // Cứ khi messages thay đổi thì lưu vào sessionStorage
     useEffect(() => {
         sessionStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
     }, [messages]);
